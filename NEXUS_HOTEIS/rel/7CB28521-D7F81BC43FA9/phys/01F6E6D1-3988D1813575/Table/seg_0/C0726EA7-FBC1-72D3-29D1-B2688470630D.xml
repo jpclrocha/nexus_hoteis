@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HOSPEDES_ESTADIA" directorySegmentName="seg_0" id="C0726EA7-FBC1-72D3-29D1-B2688470630D">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_ESTADIA" id="1720C1D4-52C9-14BA-7222-5A837AE9CAF0">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_HOSPEDE" id="404C96E5-E91D-A249-12E0-4E2EA333BAAF">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_QUARTO" id="939364C6-265F-1931-B915-2EEE94C7DFAC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HOSPEDES_ESTADIA_ESTADIA_FK" id="5B487469-6B9D-8161-28C7-6C12E904C2D3">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HOSPEDES_ESTADIA_HOSPEDE_FK" id="65B12B1E-D881-5C61-E1EA-2FFA9DC400CD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HOSPEDES_ESTADIA_QUARTOS_FK" id="95F0AF60-F279-F7D0-435F-620C68B12240">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HOSPEDES_ESTADIA_PK" id="9F7A5B0B-C973-3ED0-4314-BE7C7923AA7C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

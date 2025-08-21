@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E743E27-3D32-6236-780E-8F275C663981" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="CONSUMO_SERVICOS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:26:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<abbreviation>CON_SER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CONSUMO" id="E953CB74-B1CA-3F10-F949-9132C4E9CE16">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:26:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>CONSUMO_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>CONSUMO_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>CONSUMO_SERVICOS_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_ESTADIA" id="DFF08A3E-0299-D5C3-307C-C94DB2876EAB">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:26:50 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CONSUMO_SERVICOS_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="71FA2C9B-3084-B9B5-C866-DE8D2E92EEE9" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
+</associations>
+</Column>
+<Column name="ID_SERVICOS" id="7228B078-54D4-764D-B3EE-579F55075130">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:27:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CONSUMO_SERVICOS_ID_SERVICOS_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="87700A1B-83D7-5D93-82E5-639730F8BA3B" referredColumn="CBF4D286-7654-8EC9-5C0B-FA11AB50BF52"/>
+</associations>
+</Column>
+<Column name="ID_QUARTO" id="C96F48F3-4A5E-CE2C-F61F-E494A520C8BA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:27:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CONSUMO_SERVICOS_ID_QUARTO_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="266EFF9F-5674-BA2C-5DA7-2DA76A8D0B8B" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
+</associations>
+</Column>
+<Column name="QTD_SERVICO" id="9F936EC1-A8EA-D619-DEBF-0C568B503C83">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:28:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CONSUMO_SERVICOS_QUANTIDADE_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PRECO_TOTAL" id="AB0D1144-5BC3-488E-5E8E-118629F1407C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:28:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAT_CONSUMO" id="46362C19-8141-CB21-C9EA-9639A89CC5FC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:28:28 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CONSUMO_SERVICOS_DATA_CONSUMO_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A95BF554-5A9C-2A76-C9B4-BBCD75AE5BEF" name="CONSUMO_SERVICOS_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:26:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E953CB74-B1CA-3F10-F949-9132C4E9CE16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F90C2EA-19A0-16BB-2B88-A977562806A3" name="CONSUMO_SERVICOS_ESTADIA_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:29:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF08A3E-0299-D5C3-307C-C94DB2876EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A67F077-7EB6-2C71-E98F-FAFAF51254F3" name="CONSUMO_SERVICOS_QUARTOS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:31:50 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C96F48F3-4A5E-CE2C-F61F-E494A520C8BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F311DA5-4703-D1D7-C47A-0B0D3A1FBF71" name="CONSUMO_SERVICOS_SERVICOS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:32:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7228B078-54D4-764D-B3EE-579F55075130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

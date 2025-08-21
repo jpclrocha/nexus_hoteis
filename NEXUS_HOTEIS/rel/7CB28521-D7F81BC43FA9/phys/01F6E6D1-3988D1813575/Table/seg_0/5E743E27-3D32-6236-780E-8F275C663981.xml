@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CONSUMO_SERVICOS" directorySegmentName="seg_0" id="5E743E27-3D32-6236-780E-8F275C663981">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DAT_CONSUMO" id="46362C19-8141-CB21-C9EA-9639A89CC5FC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SERVICOS" id="7228B078-54D4-764D-B3EE-579F55075130">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTD_SERVICO" id="9F936EC1-A8EA-D619-DEBF-0C568B503C83">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECO_TOTAL" id="AB0D1144-5BC3-488E-5E8E-118629F1407C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_QUARTO" id="C96F48F3-4A5E-CE2C-F61F-E494A520C8BA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ESTADIA" id="DFF08A3E-0299-D5C3-307C-C94DB2876EAB">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CONSUMO" id="E953CB74-B1CA-3F10-F949-9132C4E9CE16">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSUMO_SERVICOS_SERVICOS_FK" id="7F311DA5-4703-D1D7-C47A-0B0D3A1FBF71">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSUMO_SERVICOS_QUARTOS_FK" id="8A67F077-7EB6-2C71-E98F-FAFAF51254F3">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CONSUMO_SERVICOS_ESTADIA_FK" id="9F90C2EA-19A0-16BB-2B88-A977562806A3">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONSUMO_SERVICOS_PK" id="A95BF554-5A9C-2A76-C9B4-BBCD75AE5BEF">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

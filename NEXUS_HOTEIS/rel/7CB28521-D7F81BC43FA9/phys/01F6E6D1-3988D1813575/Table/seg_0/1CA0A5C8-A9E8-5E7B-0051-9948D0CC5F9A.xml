@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TARIFA" directorySegmentName="seg_0" id="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_TIPO_QUARTO" id="31F23B33-F92C-22B9-4057-80E1320ACDCB">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREC_DIARIA" id="3C071B25-3D8F-9C81-A9F0-1682A2005031">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PERIODO_TARIFA" id="4A8EB3ED-1054-C813-4105-3912E8B20DFF">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TARIFA" id="55902D87-A8B8-700C-5444-8E1D6555FF54">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIA_SEMANA" id="E7AC3437-F9F5-21BF-5168-858222873621">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TARIFA_TIPOS_QUARTO_FK" id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TARIFA_PERIODOS_TARIFA_FK" id="A5DAF535-9BAA-9066-67BD-E217AB4EBF49">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TARIFA_PK" id="329261AC-B55E-1045-41A6-093941A6DCC3">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="QUARTOS_RESERVADOS" directorySegmentName="seg_0" id="FBE08728-0CD0-5354-2051-5CAECE21D2CA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_QUARTO" id="548F7869-37B8-3EC0-4EC2-9578AA35F35C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_RESERVA" id="BCD80CAE-2F97-F79E-A6D6-B89DB0F98D5A">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="QUARTOS_RESERVADOS_ID_QUARTOS_FK" id="899957B3-12F1-9C72-60A2-96B1D0747FB9">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="QUARTOS_RESERVADOS_ID_RESERVA_FK" id="9758EF72-54AD-3435-92EC-01A73AFC76D9">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESERVA_QUARTOS_PK" id="72C69A6C-81C7-DFBD-0986-6659CC414443">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 03:06:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

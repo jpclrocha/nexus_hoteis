@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69CD88F9-02A7-03A5-EA6A-DE54FCEC4997" containerWithKeyObject="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A" localFKIndex="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="TARIFA_TIPOS_QUARTO_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:26:30 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<referredTableLongName>NEXUS_SCH.TIPOS_QUARTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E4E9BFA-09D8-1086-6526-B0FA74C22A2B</referredTableID>
+<keyObject>B2C14E9E-BF18-4E37-08F9-502356FE3F52</keyObject>
+<referredKeyID>B2C14E9E-BF18-4E37-08F9-502356FE3F52</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TP_QRT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

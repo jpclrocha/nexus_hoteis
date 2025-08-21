@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="182F0C99-020A-EB54-4A09-C39EB6BD383A" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="VIEW_FUNCIONARIOS_CARGOS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>view_8</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    f.ID_FUNCIONARIO,
+    f.NOM_FUNCIONARIO,
+    c.NOM_CARGO,
+    f.DAT_ADMISSAO,
+    f.STS_FUNCIONARIO
+FROM
+    SCH_NEXUS_IDENTITY.FUNCIONARIO f
+JOIN
+    SCH_NEXUS_IDENTITY.CARGOS c ON f.ID_CARGO = c.ID_CARGO;]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ID_FUNCIONARIO" id="905DBD10-2961-E0FB-B066-FBBB96859C6B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER (10)</dataType>
+<headerAlias>ID_FUNCIONARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>EF1D59D7-5E93-412B-3C67-0A70D32E9955</referencedColumn>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOM_FUNCIONARIO" id="01FD63D5-90B6-9674-D449-50A95C298C0C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100 CHAR)</dataType>
+<headerAlias>NOM_FUNCIONARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>ADEBC0F4-2127-C148-D64F-53C329928D5B</referencedColumn>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOM_CARGO" id="7C1604F0-A269-9864-DCC1-0E19E61E8979">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50 CHAR)</dataType>
+<headerAlias>NOM_CARGO</headerAlias>
+<reference>false</reference>
+<referencedColumn>630A8B37-23D3-29C8-5D0B-72D71A76AF99</referencedColumn>
+<table>AD7F5E4D-CA76-F9E2-9B08-3EF84428F392</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DAT_ADMISSAO" id="28F41198-027C-6A9A-DE49-F24A83BD0438">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DAT_ADMISSAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>832456B2-A9D4-A493-BD47-E4166B13C969</referencedColumn>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STS_FUNCIONARIO" id="535323D1-94D8-5D3D-56BE-6FF5B9E8479C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:37:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>STS_FUNCIONARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>24DA1B31-5FB2-69DF-DF4D-6E2C8C077946</referencedColumn>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4">
+<container>true</container>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AD7F5E4D-CA76-F9E2-9B08-3EF84428F392">
+<container>true</container>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>CARGOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EF1D59D7-5E93-412B-3C67-0A70D32E9955">
+<columnName>ID_FUNCIONARIO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ADEBC0F4-2127-C148-D64F-53C329928D5B">
+<columnName>NOM_FUNCIONARIO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="630A8B37-23D3-29C8-5D0B-72D71A76AF99">
+<columnName>NOM_CARGO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>CARGOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="832456B2-A9D4-A493-BD47-E4166B13C969">
+<columnName>DAT_ADMISSAO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="24DA1B31-5FB2-69DF-DF4D-6E2C8C077946">
+<columnName>STS_FUNCIONARIO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1C54910C-D64D-19BB-2FEF-B85C3762395F">
+<columnName>ID_CARGO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>FUNCIONARIO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D7927598-BBA9-6974-9916-812793695D1B">
+<columnName>ID_CARGO</columnName>
+<schema>SCH_NEXUS_IDENTITY</schema>
+<tableName>CARGOS</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

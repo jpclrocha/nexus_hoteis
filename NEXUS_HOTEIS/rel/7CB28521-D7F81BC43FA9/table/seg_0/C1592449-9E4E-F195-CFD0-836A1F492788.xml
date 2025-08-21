@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1592449-9E4E-F195-CFD0-836A1F492788" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="SERVICOS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:18:58 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<abbreviation>SER</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SERVICO" id="CBF4D286-7654-8EC9-5C0B-FA11AB50BF52">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:19:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SERVICOS_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>SERVICOS_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>SERVICO_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="NOME_SERVICO" id="902F2C63-1C46-3C41-3E1F-06A706104404">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:19:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SERVICO_NOME_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DES_SERVICO" id="E85A880E-19BA-F424-C574-E4162E433ABD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:22:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SERVICO_DESCRICAO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PRECO_SERVICO" id="D33FBE8E-F1F1-92C6-7298-A8217D68B523">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:23:32 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>SERVICO_PRECO_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1B03728-2BC5-AFB2-F05F-4AC9F21B110C" name="SERVICOS_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:19:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF4D286-7654-8EC9-5C0B-FA11AB50BF52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

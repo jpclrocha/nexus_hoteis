@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SCH_NEXUS" directorySegmentName="seg_0" id="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 22:30:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71FA2C9B-3084-B9B5-C866-DE8D2E92EEE9" containerWithKeyObject="5E743E27-3D32-6236-780E-8F275C663981" localFKIndex="9F90C2EA-19A0-16BB-2B88-A977562806A3" name="CONSUMO_SERVICOS_ESTADIA_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:29:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<referredTableLongName>NEXUS_SCH.ESTADIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF3E6235-3274-B09F-1040-8009AD71D670</referredTableID>
+<keyObject>DFED9A50-58CF-9676-A66A-8375C5C26B1E</keyObject>
+<referredKeyID>DFED9A50-58CF-9676-A66A-8375C5C26B1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF873954-2C92-9072-C679-31BE18B9261C" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="RESERVAS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:52:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<abbreviation>RES</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESERVA" id="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:53:42 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>RESERVAS_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>RESERVAS_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>RESERVA_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_HOSPEDE_PRINCIPAL" id="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:57:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_ID_HOSPEDE_PRINCIPAL_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F5BF6A3B-C12F-D8BA-330A-4C535E1DB013" referredColumn="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
+</associations>
+</Column>
+<Column name="DAT_RESERVA" id="764C38D7-3EEA-5FE1-D886-261DD90E06C8">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:00:54 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_DATA_RESERVA_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DAT_CHECKIN_PREVISTA" id="7A204FE7-48C1-562C-BB00-45BC99E17037">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:00:54 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_DATA_CHECKIN_PREVISTA</notNullConstraintName>
+</Column>
+<Column name="DAT_CHECKOUT_PREVISTA" id="738BDC83-44ED-CFA5-FAAF-DDFD694D7642">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:00:54 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_DATA_CHECKOUT_PREVISTA</notNullConstraintName>
+</Column>
+<Column name="NUM_ADULTOS" id="1024F70B-70D1-1D57-EBEB-8F6FCA5156F6">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:03:41 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_NUMERO_ADULTOS_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="NUM_CRIANCAS" id="E6B37051-B36F-A5F0-BE81-375ED2381996">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:03:41 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STS_RESERVA" id="51A46288-D16B-7565-6782-AB7E8AEB527A">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:05:15 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>RESERVA_STATUS_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70909D0F-7AA6-3D42-13B0-B4B0597E1E7E" name="RESERVAS_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:53:42 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F01980A-121D-142D-4384-E52D08056C2B" name="RESERVAS_HOSPEDE_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 14:58:26 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="RESERVAS_STATUS_CK" directorySegmentName="seg_0" id="314BAE4E-FC23-0C21-B821-40E806A84A92">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 15:05:15 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<rule><![CDATA[STS_RESERVA IN ('CONFIRMADA', 'PENDENTE', 'CANCELADA', 'NOSHOW')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F05181E4-B408-1F94-F46E-789B091D0E26" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="FATURAS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:35:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<abbreviation>FAT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FATURA" id="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:35:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FATURA_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>FATURA_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>FATURA_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_ESTADIA" id="99EF791F-BE12-EE4A-E351-E5A5C23F52AD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:35:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="325D50E6-5116-B664-58CC-16A55C4E3269" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
+</associations>
+</Column>
+<Column name="DAT_EMISSAO" id="F44245E6-637E-6880-E7AB-D39DC70F5725">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_DATA_EMISSAO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="VAL_TOTAL_DIARIAS" id="4133B95A-A7DF-3A3C-3BC5-8AF88F13AC83">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_TOTAL_DIARIAS_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="VAL_TOTAL_SERVICOS" id="BBDA6AE8-71F2-C197-2727-7A2B49AB6DCA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_TOTAL_SERVICOS_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="VAL_IMPOSTOS" id="6377CC6C-C7E8-2F79-11E1-0A304BDF73BD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_TOTAL_IMPOSTOS_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="VAL_FINAL" id="B3FFAF29-C53C-5AEA-1A8C-06EF6A56FB7A">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:31 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_VALOR_FINAL_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="STS_FATURA" id="A461CD40-F5F0-606D-B4D0-3FC640C357A5">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:37:44 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FATURA_STATUS_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89927CB3-639D-EB2F-9956-B519C7A7A858" name="FATURAS_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:35:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FATURAS_ESTADIA_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:39:04 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99EF791F-BE12-EE4A-E351-E5A5C23F52AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="FATURAS_STATUS_CK" directorySegmentName="seg_0" id="CAA85175-0DE7-4A33-7CF1-7E3D49F46930">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:39:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<rule><![CDATA[STS_FATURA IN ('PENDENTE', 'PAGA', 'PARCIALMENTE_PAGA', 'CANCELADA')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

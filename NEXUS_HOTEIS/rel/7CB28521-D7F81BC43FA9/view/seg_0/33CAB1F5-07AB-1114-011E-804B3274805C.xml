@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="33CAB1F5-07AB-1114-011E-804B3274805C" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="VIEW_QUARTOS_OCUPADOS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 13:38:49 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>view_1</ordsAlias>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    q.NUM_QRT,
+    tq.NOME_TP_QRT,
+    q.AND_QRT,
+    q.STS_QRT,
+    h.PNM_HOS || ' ' || h.UNM_HOS AS HOSPEDE_PRINCIPAL,
+    r.DAT_CHECKOUT_PREVISTA
+FROM
+    SCH_NEXUS.QUARTOS q
+INNER JOIN
+    SCH_NEXUS.TIPOS_QUARTO tq ON q.ID_TP_QRT = tq.ID_TP_QRT
+LEFT JOIN
+    SCH_NEXUS.HOSPEDES_ESTADIA he ON q.ID_QRT = he.ID_QUARTO
+LEFT JOIN
+    SCH_NEXUS.ESTADIA e ON he.ID_ESTADIA = e.ID_ESTADIA AND e.STS_ESTADIA = 'HOSPEDADO'
+LEFT JOIN
+    SCH_NEXUS.RESERVAS r ON e.ID_RESERVA = r.ID_RESERVA
+LEFT JOIN
+    SCH_NEXUS.HOSPEDE h ON r.ID_HOSPEDE_PRINCIPAL = h.ID_HOS
+ORDER BY
+    q.NUM_QRT;]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NUM_QRT" id="CBA9B003-56EA-120F-1D4D-7861994312D7">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:02:55 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (10 CHAR)</dataType>
+<headerAlias>NUM_QRT</headerAlias>
+<reference>false</reference>
+<referencedColumn>FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6</referencedColumn>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_TP_QRT" id="21F78E4B-D9B8-0025-A668-EA629173A835">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:04:22 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50 CHAR)</dataType>
+<headerAlias>NOME_TP_QRT</headerAlias>
+<reference>false</reference>
+<referencedColumn>865F99CF-1A55-BDD7-C9D3-79CFE4BAEDB2</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="AND_QRT" id="D598A407-4C29-7787-656C-660C48B8BECA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:02:55 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>INTEGER</dataType>
+<headerAlias>AND_QRT</headerAlias>
+<reference>false</reference>
+<referencedColumn>D49C4F2B-EC66-BD34-9535-168FCA5AF76A</referencedColumn>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="STS_QRT" id="ADB0B5F2-A3A0-CB87-387B-A1EFD6C6E2C0">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:02:55 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (25 CHAR)</dataType>
+<headerAlias>STS_QRT</headerAlias>
+<reference>false</reference>
+<referencedColumn>8E2348EA-D79D-6C0E-5D1A-B7DC05D01DAA</referencedColumn>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="HOSPEDE_PRINCIPAL" id="40259547-EBB9-DDD9-A1FA-C9D9D0FC7E15">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 13:40:00 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>HOSPEDE_PRINCIPAL</alias>
+<dataType>VARCHAR2</dataType>
+<headerAlias>HOSPEDE_PRINCIPAL</headerAlias>
+<expression>h.PNM_HOS||&apos; &apos;||h.UNM_HOS</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DAT_CHECKOUT_PREVISTA" id="8C4F8FE2-23C0-40E0-42E3-D7DD77A2EEB8">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-20 14:02:55 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DAT_CHECKOUT_PREVISTA</headerAlias>
+<reference>false</reference>
+<referencedColumn>738BDC83-44ED-CFA5-FAAF-DDFD694D7642</referencedColumn>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3E8586D7-79CA-36A5-446A-2C9224459ECF">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1E4E9BFA-09D8-1086-6526-B0FA74C22A2B">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>TIPOS_QUARTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C0726EA7-FBC1-72D3-29D1-B2688470630D">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDES_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="BF3E6235-3274-B09F-1040-8009AD71D670">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DF873954-2C92-9072-C679-31BE18B9261C">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>RESERVAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2F2BB608-6524-9229-BCD9-261C8A99EF34">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6">
+<columnName>NUM_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="865F99CF-1A55-BDD7-C9D3-79CFE4BAEDB2">
+<columnName>NOME_TP_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TIPOS_QUARTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D49C4F2B-EC66-BD34-9535-168FCA5AF76A">
+<columnName>AND_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8E2348EA-D79D-6C0E-5D1A-B7DC05D01DAA">
+<columnName>STS_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="738BDC83-44ED-CFA5-FAAF-DDFD694D7642">
+<columnName>DAT_CHECKOUT_PREVISTA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>RESERVAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="A0E0497B-E535-2815-6F4E-33716FBAD9A5">
+<columnName>ID_TP_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TIPOS_QUARTO</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78">
+<columnName>ID_ESTADIA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="43B158DD-C81D-A9BA-B24D-DA419CC77D1D">
+<columnName>ID_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5C011238-38CC-9D75-70E8-38AF29FB078A">
+<columnName>ID_HOS</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="939364C6-265F-1931-B915-2EEE94C7DFAC">
+<columnName>ID_QUARTO</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDES_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
+<columnName>PNM_HOS</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F3D4BA99-C468-E960-A342-61180EBBDBCE">
+<columnName>ID_TP_QRT</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>QUARTOS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1720C1D4-52C9-14BA-7222-5A837AE9CAF0">
+<columnName>ID_ESTADIA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDES_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B579450-338A-1D1D-2698-DC40D7BF5BDA">
+<columnName>ID_RESERVA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0DE79C79-37C4-22B2-12EE-82979713E9CC">
+<columnName>UNM_HOS</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0D8B1A96-B026-A298-7A3E-74F9C965EA71">
+<columnName>STS_ESTADIA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8">
+<columnName>ID_RESERVA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>RESERVAS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72">
+<columnName>ID_HOSPEDE_PRINCIPAL</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>RESERVAS</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

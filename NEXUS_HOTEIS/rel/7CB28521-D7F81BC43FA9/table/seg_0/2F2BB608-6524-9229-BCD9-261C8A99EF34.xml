@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F2BB608-6524-9229-BCD9-261C8A99EF34" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="HOSPEDE">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:14:18 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<abbreviation>HOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HOS" id="5C011238-38CC-9D75-70E8-38AF29FB078A">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:14:53 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>HOSPEDES_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>HOSPEDES_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>HOSPEDE_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PNM_HOS" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:18:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_PNOME_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="UNM_HOS" id="0DE79C79-37C4-22B2-12EE-82979713E9CC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:18:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_UNOME_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DAT_NASCIMENTO_HOS" id="4C508909-4A59-6508-829E-010EDB9F6583">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:18:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_DATA_NASCIMENTO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="CPF_HOS" id="F367F83B-C1EA-C6B7-FA33-A45E3B256CE5">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:18:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_CPF_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="EMAIL_HOS" id="1503F9A0-AC26-9E3D-A5CF-8C063FDC4411">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:19:15 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_EMAIL_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="TEL_HOS" id="622E43E0-0AF7-51E3-669D-16F2A6AD98F7">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:20:49 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_TELEFONE_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PAIS_HOS" id="E8B32922-E462-605F-7EFC-AD6EAD675ECC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:23:18 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAIS_HOSPEDE_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="CIDADE_HOS" id="E0CA27A2-E57B-68D6-E0AD-E1FA2C808E5F">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:23:18 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_CIDADE_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="END_HOSPEDE" id="A0902EDC-B2E3-ED03-1DB1-EC3631122144">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:23:18 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDE_ENDERECO_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC158771-B1A2-3060-546E-F853DE5732BF" name="HOSPEDE_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:14:56 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FFD08CE-4571-1CE9-DFEA-68110D0A0534" name="HOSPEDE_CPF_UN">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:18:44 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F367F83B-C1EA-C6B7-FA33-A45E3B256CE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B04245F5-ED21-316E-5EB9-81493A1E0E46" name="HOSPEDE_EMAIL_UN">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-18 23:19:36 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1503F9A0-AC26-9E3D-A5CF-8C063FDC4411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE4532C1-6933-4638-FF14-410CB6458AC3" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="CARGOS_PERMISSOES">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:10:03 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<abbreviation>CARG_PERM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARGO" id="AAA85F15-FCC1-4D2C-8DCF-4C061030B01F">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:10:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CARGOS_PERMISSOES_CARGO_ID_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="A3DC0286-CB98-6F91-494E-07E1D6CF85A7" referredColumn="D7927598-BBA9-6974-9916-812793695D1B"/>
+</associations>
+</Column>
+<Column name="ID_PERMISSAO" id="F86E5994-DE9C-29A3-EB3A-54EDDEF02317">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:10:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>CARGOS_PERMISSOES_PERMISSAO_ID_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="15AAF838-227E-BED8-9B15-FA265552E325" referredColumn="B61F03C9-30C0-0F5A-90B0-9CDB5BF78479"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DDE83F4-2E31-76CC-B8EF-08900F723FB9" name="CARGOS_PERMISSOES_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:10:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA85F15-FCC1-4D2C-8DCF-4C061030B01F"/>
+<colUsage columnID="F86E5994-DE9C-29A3-EB3A-54EDDEF02317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9794D000-E91E-1A17-91DB-CDF47BF54AA1" name="CARGOS_PERMISSOES_CARGOS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:11:01 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAA85F15-FCC1-4D2C-8DCF-4C061030B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C5E5B02-DC75-5533-1DF9-EF2AA5069AA1" name="CARGOS_PERMISSOES_PERMISSOES_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:11:13 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F86E5994-DE9C-29A3-EB3A-54EDDEF02317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

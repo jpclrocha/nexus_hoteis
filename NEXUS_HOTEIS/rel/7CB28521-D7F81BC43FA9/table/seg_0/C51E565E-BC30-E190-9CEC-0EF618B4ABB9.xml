@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C51E565E-BC30-E190-9CEC-0EF618B4ABB9" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="PAGAMENTOS">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:40:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PAGAMENTO" id="A5B02539-8AD6-CC33-D3FF-E2D51034B7B3">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:40:33 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>PAGAMENTO_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>PAGAMENTO_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>PAGAMENTO_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_FATURA" id="68F70566-D5CA-BCE0-C6B4-E9BBF2A63375">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:40:45 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAGAMENTO_ID_FATURA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="46C734E7-BDC8-12B5-E28C-B862FA40DFB9" referredColumn="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
+</associations>
+</Column>
+<Column name="VALOR_PAGO" id="1210371B-5858-BC55-69A1-BFE35D53C06B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:40:59 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAGAMENTO_VALOR_PAGO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="METODO_PAGAMENTO" id="107AC993-295F-520C-CD04-994ADC0D25A8">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:41:17 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAGAMENTO_METODO_PAGAMENTO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DAT_PAGAMENTO" id="FE204F76-4223-B383-3E0C-77F0015B19E2">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:41:35 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>PAGAMENTO_DATA_PAGAMENTO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="OBS_PAGAMENTO" id="604A347F-C12D-9C66-757E-05D31400AAAD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:42:06 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BACDF5CD-1493-F80A-81DF-CD8356FC1701" name="PAGAMENTOS_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:40:33 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5B02539-8AD6-CC33-D3FF-E2D51034B7B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="PAGAMENTOS_FATURAS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:43:26 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F70566-D5CA-BCE0-C6B4-E9BBF2A63375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

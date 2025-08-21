@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0726EA7-FBC1-72D3-29D1-B2688470630D" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="HOSPEDES_ESTADIA">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:02:21 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>HOS_EST</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADIA" id="1720C1D4-52C9-14BA-7222-5A837AE9CAF0">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:03:10 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDES_ESTADIA_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="7979EDB3-0067-F5E1-8494-C712E0E768E6" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
+</associations>
+</Column>
+<Column name="ID_HOSPEDE" id="404C96E5-E91D-A249-12E0-4E2EA333BAAF">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:03:20 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDES_ESTADIA_ID_HOSPEDE_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="61BD10D4-2F62-3824-03CB-BC70D0FA5D3B" referredColumn="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
+</associations>
+</Column>
+<Column name="ID_QUARTO" id="939364C6-265F-1931-B915-2EEE94C7DFAC">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:03:30 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>HOSPEDES_ESTADIA_ID_QUARTO_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="566770BB-7A8F-ACF3-63E8-EE6B5B32D3A2" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F7A5B0B-C973-3ED0-4314-BE7C7923AA7C" name="HOSPEDES_ESTADIA_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:03:10 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1720C1D4-52C9-14BA-7222-5A837AE9CAF0"/>
+<colUsage columnID="404C96E5-E91D-A249-12E0-4E2EA333BAAF"/>
+<colUsage columnID="939364C6-265F-1931-B915-2EEE94C7DFAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B487469-6B9D-8161-28C7-6C12E904C2D3" name="HOSPEDES_ESTADIA_ESTADIA_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:04:53 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1720C1D4-52C9-14BA-7222-5A837AE9CAF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65B12B1E-D881-5C61-E1EA-2FFA9DC400CD" name="HOSPEDES_ESTADIA_HOSPEDE_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:05:06 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404C96E5-E91D-A249-12E0-4E2EA333BAAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95F0AF60-F279-F7D0-435F-620C68B12240" name="HOSPEDES_ESTADIA_QUARTOS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 16:05:24 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939364C6-265F-1931-B915-2EEE94C7DFAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

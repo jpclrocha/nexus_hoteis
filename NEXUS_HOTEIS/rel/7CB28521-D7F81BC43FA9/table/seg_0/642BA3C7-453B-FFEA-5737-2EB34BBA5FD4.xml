@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="FUNCIONARIO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:11:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<abbreviation>FUNC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FUNCIONARIO" id="EF1D59D7-5E93-412B-3C67-0A70D32E9955">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>FUNCIONARIOS_ID_SEQUENCE</autoIncrementSequenceName>
+<autoIncrementTriggerName>FUNCIONARIOS_ID_TRIGGER</autoIncrementTriggerName>
+<notNullConstraintName>FUNCIONARIO_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_CARGO" id="1C54910C-D64D-19BB-2FEF-B85C3762395F">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_CARGO_ID_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F8AF802C-EF22-F07D-7E27-3F1677BDD9DC" referredColumn="D7927598-BBA9-6974-9916-812793695D1B"/>
+</associations>
+</Column>
+<Column name="NOM_FUNCIONARIO" id="ADEBC0F4-2127-C148-D64F-53C329928D5B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_NOME_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DAT_ADMISSAO" id="832456B2-A9D4-A493-BD47-E4166B13C969">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_DATA_ADMISSAO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="DAT_DEMISSAO" id="ACC5A665-F170-24B5-8CED-AD3BF9F3FC1D">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_DATA_DEMISSAO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="SAL_FUNIONARIO" id="825B65A5-5388-2B2B-727D-8BC10C12CA9B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:12:38 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_SALARIO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="USER_FUNCIONARIO" id="38522935-5D17-3F9A-5CD1-2BD42AA7F25C">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:13:08 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_USERNAME_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PASS_FUNCIONARIO" id="986337A4-FD22-7FE1-C06D-52E5144F525D">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:13:08 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_PASSWORD_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="STS_FUNCIONARIO" id="24DA1B31-5FB2-69DF-DF4D-6E2C8C077946">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:13:08 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>FUNCIONARIO_STATUS_NOT_NULL</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8B6B033-CE17-EED3-ABB4-A201F05D90C3" name="FUNCIONARIO_PK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:13:08 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF1D59D7-5E93-412B-3C67-0A70D32E9955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EED85078-9C45-0659-27AD-34EC5C6F3BF9" name="FUNCIONARIO_USERNAME_UN">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:14:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38522935-5D17-3F9A-5CD1-2BD42AA7F25C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4" name="FUNCIONARIO_CARGOS_FK">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:14:47 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C54910C-D64D-19BB-2FEF-B85C3762395F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="FUNCIONARIO_CK_1" directorySegmentName="seg_0" id="ADC9BCD4-31F2-C70C-1C4C-70DEB0541CAD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-19 19:17:01 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<rule><![CDATA[STS_FUNCIONARIO IN ('ATIVO','DEMITIDO','AFASTADO')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
