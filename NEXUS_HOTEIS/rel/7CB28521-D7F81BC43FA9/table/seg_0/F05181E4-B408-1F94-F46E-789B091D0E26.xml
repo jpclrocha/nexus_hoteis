@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F05181E4-B408-1F94-F46E-789B091D0E26" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="FATURAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F05181E4-B408-1F94-F46E-789B091D0E26" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_FATURAS">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:35:17 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -116,7 +116,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="89927CB3-639D-EB2F-9956-B519C7A7A858" name="FATURAS_PK">
+<ind_PK_UK id="89927CB3-639D-EB2F-9956-B519C7A7A858" name="PK_FATURAS">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:35:36 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -127,7 +127,7 @@
 <colUsage columnID="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FATURAS_ESTADIA_FK">
+<ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FK_ESTADIA_FATURAS">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:39:04 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

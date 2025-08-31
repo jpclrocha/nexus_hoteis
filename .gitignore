@@ -1,0 +1,6 @@
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store
+*.zip
+COMANDOS-DBA.sql

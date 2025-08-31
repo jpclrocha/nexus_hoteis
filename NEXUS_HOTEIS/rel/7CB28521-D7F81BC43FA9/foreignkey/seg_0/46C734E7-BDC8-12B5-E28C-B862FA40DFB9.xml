@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46C734E7-BDC8-12B5-E28C-B862FA40DFB9" containerWithKeyObject="C51E565E-BC30-E190-9CEC-0EF618B4ABB9" localFKIndex="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="PAGAMENTOS_FATURAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46C734E7-BDC8-12B5-E28C-B862FA40DFB9" containerWithKeyObject="C51E565E-BC30-E190-9CEC-0EF618B4ABB9" localFKIndex="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="FK_FATURAS_PAGAMENTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:43:26 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>NEXUS_SCH.FATURAS</referredTableLongName>
+<referredTableLongName>SCH_NEXUS.FATURAS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>F05181E4-B408-1F94-F46E-789B091D0E26</referredTableID>
 <keyObject>89927CB3-639D-EB2F-9956-B519C7A7A858</keyObject>

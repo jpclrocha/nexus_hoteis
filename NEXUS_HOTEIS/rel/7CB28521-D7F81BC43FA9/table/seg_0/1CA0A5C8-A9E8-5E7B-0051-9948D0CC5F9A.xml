@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TARIFA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:16:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -52,7 +52,7 @@
 <colAssociation fkAssociation="CDAF7F15-97A5-A8EC-9DD6-2BAB5CBE7CC1" referredColumn="ED149497-ED6C-37EB-6192-3DBE203797B4"/>
 </associations>
 </Column>
-<Column name="PREC_DIARIA" id="3C071B25-3D8F-9C81-A9F0-1682A2005031">
+<Column name="VAL_DIARIA" id="3C071B25-3D8F-9C81-A9F0-1682A2005031">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:34:40 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -79,7 +79,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="329261AC-B55E-1045-41A6-093941A6DCC3" name="TARIFA_PK">
+<ind_PK_UK id="329261AC-B55E-1045-41A6-093941A6DCC3" name="PK_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:16:42 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -90,7 +90,7 @@
 <colUsage columnID="55902D87-A8B8-700C-5444-8E1D6555FF54"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="TARIFA_TIPOS_QUARTO_FK">
+<ind_PK_UK id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="FK_TIPO_QUARTO_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:26:30 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -100,7 +100,7 @@
 <colUsage columnID="31F23B33-F92C-22B9-4057-80E1320ACDCB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="TARIFA_PERIODOS_TARIFA_FK">
+<ind_PK_UK id="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="FK_PERIODO_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:28:30 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

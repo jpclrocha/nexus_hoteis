@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C51E565E-BC30-E190-9CEC-0EF618B4ABB9" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="PAGAMENTOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C51E565E-BC30-E190-9CEC-0EF618B4ABB9" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_PAGAMENTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:40:11 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -39,7 +39,7 @@
 <colAssociation fkAssociation="46C734E7-BDC8-12B5-E28C-B862FA40DFB9" referredColumn="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
 </associations>
 </Column>
-<Column name="VALOR_PAGO" id="1210371B-5858-BC55-69A1-BFE35D53C06B">
+<Column name="VAL_PAGO" id="1210371B-5858-BC55-69A1-BFE35D53C06B">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:40:59 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -52,7 +52,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>PAGAMENTO_VALOR_PAGO_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="METODO_PAGAMENTO" id="107AC993-295F-520C-CD04-994ADC0D25A8">
+<Column name="MET_PAGAMENTO" id="107AC993-295F-520C-CD04-994ADC0D25A8">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:41:17 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -89,7 +89,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BACDF5CD-1493-F80A-81DF-CD8356FC1701" name="PAGAMENTOS_PK">
+<ind_PK_UK id="BACDF5CD-1493-F80A-81DF-CD8356FC1701" name="PK_PAGAMENTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:40:33 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -100,7 +100,7 @@
 <colUsage columnID="A5B02539-8AD6-CC33-D3FF-E2D51034B7B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="PAGAMENTOS_FATURAS_FK">
+<ind_PK_UK id="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="FK_FATURAS_PAGAMENTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:43:26 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

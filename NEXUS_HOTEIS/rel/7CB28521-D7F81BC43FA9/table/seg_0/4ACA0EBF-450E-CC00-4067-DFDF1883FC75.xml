@@ -1,62 +1,57 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD7F5E4D-CA76-F9E2-9B08-3EF84428F392" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="TAB_CARGO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4ACA0EBF-450E-CC00-4067-DFDF1883FC75" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 19:08:24 UTC</createdTime>
+<createdTime>2025-08-30 22:30:53 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<ordsAlias>table_15</ordsAlias>
-<abbreviation>CARG</abbreviation>
+<ordsAlias>table_19</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_CARGO" id="D7927598-BBA9-6974-9916-812793695D1B">
+<Column name="ID_COMODIDADE" id="C7726404-01B8-C845-A7C5-8BA0AE4025E0">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 19:08:58 UTC</createdTime>
+<createdTime>2025-08-30 22:31:56 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>CARGOS_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>CARGOS_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>CARGO_ID_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="NOM_CARGO" id="630A8B37-23D3-29C8-5D0B-72D71A76AF99">
+<Column name="NOM_COMODIDADE" id="E34F2B03-816A-06F7-8BB0-FBD8D117BEB2">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 19:09:13 UTC</createdTime>
+<createdTime>2025-08-30 22:31:56 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>CARGO_NOME_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NOME_COMODIDADE</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8B63F6EE-F615-97D1-F573-4F3B92537D6B" name="PK_CARGO">
+<ind_PK_UK id="F6FBEA00-373E-7D95-30C4-991EB9B9B02A" name="PK_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 19:08:58 UTC</createdTime>
+<createdTime>2025-08-30 22:31:56 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D7927598-BBA9-6974-9916-812793695D1B"/>
+<colUsage columnID="C7726404-01B8-C845-A7C5-8BA0AE4025E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE3DABBD-2C83-E0F1-9F8F-513A9A38FE9C" name="AK_NOME_CARGO">
+<ind_PK_UK id="36BD1C96-D889-4440-8338-14883EAB321A" name="AK_NOME_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 19:09:21 UTC</createdTime>
+<createdTime>2025-08-30 22:32:29 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="630A8B37-23D3-29C8-5D0B-72D71A76AF99"/>
+<colUsage columnID="E34F2B03-816A-06F7-8BB0-FBD8D117BEB2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

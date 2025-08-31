@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC9ADBD-10F6-1668-249A-DE653B81CE6D" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="PERMISSOES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC9ADBD-10F6-1668-249A-DE653B81CE6D" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="TAB_PERMISSAO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:04:49 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -9,7 +9,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_PEMISSAO" id="B61F03C9-30C0-0F5A-90B0-9CDB5BF78479">
+<Column name="ID_PERMISSAO" id="B61F03C9-30C0-0F5A-90B0-9CDB5BF78479">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:05:27 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -24,7 +24,7 @@
 <autoIncrementTriggerName>PERMISSOES_ID_TRIGGER</autoIncrementTriggerName>
 <notNullConstraintName>PERMISSAO_ID_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="NOME_PERMISSAO" id="D0B56A87-B87C-3689-13BE-7BC4101F7DCC">
+<Column name="NOM_PERMISSAO" id="D0B56A87-B87C-3689-13BE-7BC4101F7DCC">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:05:59 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -38,7 +38,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7682306C-7436-D54E-5D90-F9A299C3ADF7" name="PERMISSOES_PK">
+<ind_PK_UK id="7682306C-7436-D54E-5D90-F9A299C3ADF7" name="PK_PERMISSAO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:05:27 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -47,6 +47,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B61F03C9-30C0-0F5A-90B0-9CDB5BF78479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6D5C846-E90F-35D4-7CC9-0833EC3BA399" name="AK_NOME_PERMISSAO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-31 14:39:02 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B56A87-B87C-3689-13BE-7BC4101F7DCC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

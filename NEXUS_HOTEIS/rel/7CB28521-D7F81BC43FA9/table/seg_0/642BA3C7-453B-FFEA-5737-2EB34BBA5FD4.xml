@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="FUNCIONARIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="TAB_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:11:57 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -124,7 +124,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E8B6B033-CE17-EED3-ABB4-A201F05D90C3" name="FUNCIONARIO_PK">
+<ind_PK_UK id="E8B6B033-CE17-EED3-ABB4-A201F05D90C3" name="PK_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:13:08 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -135,7 +135,7 @@
 <colUsage columnID="EF1D59D7-5E93-412B-3C67-0A70D32E9955"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EED85078-9C45-0659-27AD-34EC5C6F3BF9" name="FUNCIONARIO_USERNAME_UN">
+<ind_PK_UK id="EED85078-9C45-0659-27AD-34EC5C6F3BF9" name="AK_USER_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:14:57 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -145,7 +145,7 @@
 <colUsage columnID="38522935-5D17-3F9A-5CD1-2BD42AA7F25C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4" name="FUNCIONARIO_CARGOS_FK">
+<ind_PK_UK id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4" name="FK_CARGO_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:14:47 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -157,7 +157,7 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="FUNCIONARIO_CK_1" directorySegmentName="seg_0" id="ADC9BCD4-31F2-C70C-1C4C-70DEB0541CAD">
+<tableCheckConstraint name="CK_STATUS_FUNCIONARIO" directorySegmentName="seg_0" id="ADC9BCD4-31F2-C70C-1C4C-70DEB0541CAD">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:17:01 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

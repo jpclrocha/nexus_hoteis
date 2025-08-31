@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3DC0286-CB98-6F91-494E-07E1D6CF85A7" containerWithKeyObject="DE4532C1-6933-4638-FF14-410CB6458AC3" localFKIndex="9794D000-E91E-1A17-91DB-CDF47BF54AA1" name="CARGOS_PERMISSOES_CARGOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3DC0286-CB98-6F91-494E-07E1D6CF85A7" containerWithKeyObject="DE4532C1-6933-4638-FF14-410CB6458AC3" localFKIndex="9794D000-E91E-1A17-91DB-CDF47BF54AA1" name="FK_CARGO_TAB_CARGO_PERMISSAO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:11:01 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>NEXUS_IDENTITY.CARGOS</referredTableLongName>
+<referredTableLongName>SCH_NEXUS_IDENTITY.CARGOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>AD7F5E4D-CA76-F9E2-9B08-3EF84428F392</referredTableID>
 <keyObject>8B63F6EE-F615-97D1-F573-4F3B92537D6B</keyObject>

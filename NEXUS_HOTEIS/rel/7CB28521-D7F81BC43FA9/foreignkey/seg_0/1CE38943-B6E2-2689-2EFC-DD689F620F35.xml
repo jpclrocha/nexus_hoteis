@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CE38943-B6E2-2689-2EFC-DD689F620F35" containerWithKeyObject="FBE08728-0CD0-5354-2051-5CAECE21D2CA" localFKIndex="899957B3-12F1-9C72-60A2-96B1D0747FB9" name="QUARTOS_RESERVADOS_ID_QUARTOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1CE38943-B6E2-2689-2EFC-DD689F620F35" containerWithKeyObject="FBE08728-0CD0-5354-2051-5CAECE21D2CA" localFKIndex="899957B3-12F1-9C72-60A2-96B1D0747FB9" name="FK_QUARTO_TAB_QUARTO_RESERVADO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:09:06 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>NEXUS_SCH.QUARTOS</referredTableLongName>
+<referredTableLongName>SCH_NEXUS.TAB_QUARTOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>3E8586D7-79CA-36A5-446A-2C9224459ECF</referredTableID>
 <keyObject>D8819D10-8430-1738-1854-963081C7BC03</keyObject>

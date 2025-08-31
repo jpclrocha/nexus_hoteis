@@ -1,10 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0DD6074-4E78-E31A-9E12-677CD6F9DEBC" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="PERIODOS_TARIFA">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0DD6074-4E78-E31A-9E12-677CD6F9DEBC" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_PERIODO_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:06:33 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_4</ordsAlias>
-<abbreviation>PER_TARIF</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -24,7 +23,7 @@
 <autoIncrementTriggerName>PERIODO_TARIFA_ID_TRIGGER</autoIncrementTriggerName>
 <notNullConstraintName>PERIODO_TARIFA_ID_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="NOME_PERIODO" id="78EA6048-36BC-CF55-BB2E-CA3B03D99596">
+<Column name="NOM_PERIODO" id="78EA6048-36BC-CF55-BB2E-CA3B03D99596">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:09:09 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -60,7 +59,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="764F68C0-CC0A-546F-E76F-41254E269443" name="PERIODOS_TARIFA_PK">
+<ind_PK_UK id="764F68C0-CC0A-546F-E76F-41254E269443" name="PK_PERIODO_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:10:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

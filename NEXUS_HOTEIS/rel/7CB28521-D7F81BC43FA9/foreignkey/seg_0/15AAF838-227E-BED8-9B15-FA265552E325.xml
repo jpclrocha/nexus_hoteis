@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15AAF838-227E-BED8-9B15-FA265552E325" containerWithKeyObject="DE4532C1-6933-4638-FF14-410CB6458AC3" localFKIndex="7C5E5B02-DC75-5533-1DF9-EF2AA5069AA1" name="CARGOS_PERMISSOES_PERMISSOES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15AAF838-227E-BED8-9B15-FA265552E325" containerWithKeyObject="DE4532C1-6933-4638-FF14-410CB6458AC3" localFKIndex="7C5E5B02-DC75-5533-1DF9-EF2AA5069AA1" name="FK_PERMISSAO_TAB_CARGO_PERMISSAO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:11:13 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>NEXUS_IDENTITY.PERMISSOES</referredTableLongName>
+<referredTableLongName>SCH_NEXUS_IDENTITY.TAB_PERMISSAO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>7AC9ADBD-10F6-1668-249A-DE653B81CE6D</referredTableID>
 <keyObject>7682306C-7436-D54E-5D90-F9A299C3ADF7</keyObject>
 <referredKeyID>7682306C-7436-D54E-5D90-F9A299C3ADF7</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_PEMISSAO</refColNames>
+<refColNames>ID_PERMISSAO</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

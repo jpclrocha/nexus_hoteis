@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38705E07-4A5F-768F-CCE0-79F2C026BE1D" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_AVALIACAO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:20:13 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<abbreviation>TAB_AVL</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AVALIACAO" id="9A99BBE0-C0C9-2987-75C8-77AB9C54B00B">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:21:31 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_ID_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="ID_ESTADIA" id="E8CA8C8D-5224-1214-5454-09EDA4C4F311">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:25:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="650D256D-1217-C7D2-7747-A3EB1FB8C1EF" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
+</associations>
+</Column>
+<Column name="ID_HOSPEDE" id="2D4FF3B7-008C-050B-A25C-D990EF7FD5B9">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:25:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_ID_HOSPEDE_NOT_NULL</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="BFA0EEF7-69DB-B9C0-2ABF-23997FF1EF6C" referredColumn="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
+</associations>
+</Column>
+<Column name="PONT_LIMPEZA" id="AFCE4B9D-3D23-ED16-E023-F7539875AE28">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:26:47 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_PONT_LIMPEZA_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PONT_ATENDIMENTO" id="479774EE-3F90-2721-5E39-C0B8B370DABD">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:28:37 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_PONT_ATENDIMENTO_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PONT_COMODIDADES" id="AB744533-1159-73E1-38F4-3A9C3AF2A574">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:28:37 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TAB_AVALIACOES_PONT_COMODIDADES_NOT_NULL</notNullConstraintName>
+</Column>
+<Column name="PONT_GERAL" id="7D865A3D-B962-3AAE-04ED-8E27E83369D7">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:29:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB482906-66E6-2952-AF4C-FE94354CEEDA" name="PK_AVALIACAO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:21:31 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A99BBE0-C0C9-2987-75C8-77AB9C54B00B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC0ACA42-D012-C909-E888-8C92A835FDCA" name="FK_ESTADIA_AVALIACAO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:25:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CA8C8D-5224-1214-5454-09EDA4C4F311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A78F1E1-718E-A8A7-67FB-F6EE9A543D07" name="FK_HOSPEDE_AVALIACAO">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-22 00:25:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4FF3B7-008C-050B-A25C-D990EF7FD5B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

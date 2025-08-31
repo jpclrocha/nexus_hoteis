@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBE08728-0CD0-5354-2051-5CAECE21D2CA" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_QUARTO_RESERVADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFA26F68-1B53-1252-81E8-34F6CAE5A2C6" name="TAB_QUARTO_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:06:32 UTC</createdTime>
+<createdTime>2025-08-30 22:32:46 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<ordsAlias>table_8</ordsAlias>
-<abbreviation>QRT_RES</abbreviation>
+<ordsAlias>table_20</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID_RESERVA" id="BCD80CAE-2F97-F79E-A6D6-B89DB0F98D5A">
+<Column name="ID_QUARTO" id="02AC6987-9065-2963-9E85-0B47D231F10B">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:08:21 UTC</createdTime>
+<createdTime>2025-08-30 22:33:28 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,14 +18,13 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_QUARTO_ID_RESERVA_NOT_NULL</notNullConstraintName>
 <associations>
-<colAssociation fkAssociation="8C5D139C-C1D1-030D-7259-65FBB5649685" referredColumn="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8"/>
+<colAssociation fkAssociation="B880F127-FDA6-7175-AB91-3C0CEFD0BE26" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
 </associations>
 </Column>
-<Column name="ID_QUARTO" id="548F7869-37B8-3EC0-4EC2-9578AA35F35C">
+<Column name="ID_COMODIDADE" id="073B84AB-A5BB-9BFE-185C-CECF3404E50C">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:08:21 UTC</createdTime>
+<createdTime>2025-08-30 22:33:28 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,43 +32,42 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_QUARTO_ID_QUARTO_NOT_NULL</notNullConstraintName>
 <associations>
-<colAssociation fkAssociation="1CE38943-B6E2-2689-2EFC-DD689F620F35" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
+<colAssociation fkAssociation="47D88B4E-4D80-ABE6-FB49-5006EF16F4EA" referredColumn="C7726404-01B8-C845-A7C5-8BA0AE4025E0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="72C69A6C-81C7-DFBD-0986-6659CC414443" name="PK_QUARTO_RESERVADO">
+<ind_PK_UK id="20E89F1F-0041-7D49-E12A-4A609A14F6DC" name="PK_QUARTO_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:08:21 UTC</createdTime>
+<createdTime>2025-08-31 14:17:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BCD80CAE-2F97-F79E-A6D6-B89DB0F98D5A"/>
-<colUsage columnID="548F7869-37B8-3EC0-4EC2-9578AA35F35C"/>
+<colUsage columnID="02AC6987-9065-2963-9E85-0B47D231F10B"/>
+<colUsage columnID="073B84AB-A5BB-9BFE-185C-CECF3404E50C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9758EF72-54AD-3435-92EC-01A73AFC76D9" name="FK_RESERVA_TAB_QUARTO_RESERVADO">
+<ind_PK_UK id="C8B3042C-6D53-E5C5-9F77-84D991348C0D" name="FK_QUARTO">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:08:46 UTC</createdTime>
+<createdTime>2025-08-30 22:33:48 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BCD80CAE-2F97-F79E-A6D6-B89DB0F98D5A"/>
+<colUsage columnID="02AC6987-9065-2963-9E85-0B47D231F10B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="899957B3-12F1-9C72-60A2-96B1D0747FB9" name="FK_QUARTO_TAB_QUARTO_RESERVADO">
+<ind_PK_UK id="AD183A61-F411-EB1F-6410-47D9E0510DBE" name="FK_COMODIDADE">
 <createdBy>JoPe</createdBy>
-<createdTime>2025-08-19 15:09:06 UTC</createdTime>
+<createdTime>2025-08-30 22:33:59 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="548F7869-37B8-3EC0-4EC2-9578AA35F35C"/>
+<colUsage columnID="073B84AB-A5BB-9BFE-185C-CECF3404E50C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

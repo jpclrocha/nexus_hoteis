@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1592449-9E4E-F195-CFD0-836A1F492788" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="SERVICOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1592449-9E4E-F195-CFD0-836A1F492788" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_SERVICO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:18:58 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -24,7 +24,7 @@
 <autoIncrementTriggerName>SERVICOS_ID_TRIGGER</autoIncrementTriggerName>
 <notNullConstraintName>SERVICO_ID_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="NOME_SERVICO" id="902F2C63-1C46-3C41-3E1F-06A706104404">
+<Column name="NOM_SERVICO" id="902F2C63-1C46-3C41-3E1F-06A706104404">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:19:51 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -48,7 +48,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>SERVICO_DESCRICAO_NOT_NULL</notNullConstraintName>
 </Column>
-<Column name="PRECO_SERVICO" id="D33FBE8E-F1F1-92C6-7298-A8217D68B523">
+<Column name="VAL_SERVICO" id="D33FBE8E-F1F1-92C6-7298-A8217D68B523">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:23:32 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -63,7 +63,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C1B03728-2BC5-AFB2-F05F-4AC9F21B110C" name="SERVICOS_PK">
+<ind_PK_UK id="C1B03728-2BC5-AFB2-F05F-4AC9F21B110C" name="PK_SERVICO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:19:51 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="182F0C99-020A-EB54-4A09-C39EB6BD383A" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="VIEW_FUNCIONARIOS_CARGOS">
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="182F0C99-020A-EB54-4A09-C39EB6BD383A" schemaObject="0215586B-4CDB-A65F-16CF-A9C3C7850896" name="VW_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 14:37:40 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -12,9 +12,9 @@
     f.DAT_ADMISSAO,
     f.STS_FUNCIONARIO
 FROM
-    SCH_NEXUS_IDENTITY.FUNCIONARIO f
+    SCH_NEXUS_IDENTITY.TAB_FUNCIONARIO f
 JOIN
-    SCH_NEXUS_IDENTITY.CARGOS c ON f.ID_CARGO = c.ID_CARGO;]]></userDefinedSQL>
+    SCH_NEXUS_IDENTITY.TAB_CARGOS c ON f.ID_CARGO = c.ID_CARGO;]]></userDefinedSQL>
 <parsed>true</parsed>
 <viewElements>
 <viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ID_FUNCIONARIO" id="905DBD10-2961-E0FB-B066-FBBB96859C6B">
@@ -82,47 +82,32 @@ JOIN
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4">
 <container>true</container>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AD7F5E4D-CA76-F9E2-9B08-3EF84428F392">
-<container>true</container>
-<schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>CARGOS</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EF1D59D7-5E93-412B-3C67-0A70D32E9955">
 <columnName>ID_FUNCIONARIO</columnName>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="ADEBC0F4-2127-C148-D64F-53C329928D5B">
 <columnName>NOM_FUNCIONARIO</columnName>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="630A8B37-23D3-29C8-5D0B-72D71A76AF99">
-<columnName>NOM_CARGO</columnName>
-<schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>CARGOS</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="832456B2-A9D4-A493-BD47-E4166B13C969">
 <columnName>DAT_ADMISSAO</columnName>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="24DA1B31-5FB2-69DF-DF4D-6E2C8C077946">
 <columnName>STS_FUNCIONARIO</columnName>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1C54910C-D64D-19BB-2FEF-B85C3762395F">
 <columnName>ID_CARGO</columnName>
 <schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>FUNCIONARIO</tableName>
-</UsedObject>
-<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D7927598-BBA9-6974-9916-812793695D1B">
-<columnName>ID_CARGO</columnName>
-<schema>SCH_NEXUS_IDENTITY</schema>
-<tableName>CARGOS</tableName>
+<tableName>TAB_FUNCIONARIO</tableName>
 </UsedObject>
 </usedObjects>
 </TableView>

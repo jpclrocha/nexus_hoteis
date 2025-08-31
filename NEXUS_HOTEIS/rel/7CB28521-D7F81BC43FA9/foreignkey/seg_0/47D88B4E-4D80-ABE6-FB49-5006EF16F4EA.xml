@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47D88B4E-4D80-ABE6-FB49-5006EF16F4EA" containerWithKeyObject="BFA26F68-1B53-1252-81E8-34F6CAE5A2C6" localFKIndex="AD183A61-F411-EB1F-6410-47D9E0510DBE" name="FK_COMODIDADE">
+<createdBy>JoPe</createdBy>
+<createdTime>2025-08-30 22:33:59 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<referredTableLongName>SCH_NEXUS.COMODIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4ACA0EBF-450E-CC00-4067-DFDF1883FC75</referredTableID>
+<keyObject>F6FBEA00-373E-7D95-30C4-991EB9B9B02A</keyObject>
+<referredKeyID>F6FBEA00-373E-7D95-30C4-991EB9B9B02A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_COMODIDADE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
