@@ -56,7 +56,7 @@ ORDER BY
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<dataType>INTEGER</dataType>
+<dataType>NUMBER (2)</dataType>
 <headerAlias>AND_QUARTO</headerAlias>
 <reference>false</reference>
 <referencedColumn>D49C4F2B-EC66-BD34-9535-168FCA5AF76A</referencedColumn>

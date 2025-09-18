@@ -31,8 +31,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<dataTypeSize>16 BYTE</dataTypeSize>
-<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>PAGAMENTO_ID_FATURA_NOT_NULL</notNullConstraintName>
 <associations>
