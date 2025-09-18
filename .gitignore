@@ -3,4 +3,5 @@
 **/*.git
 **/*.DS_Store
 *.zip
+*.docx
 COMANDOS-DBA.sql
