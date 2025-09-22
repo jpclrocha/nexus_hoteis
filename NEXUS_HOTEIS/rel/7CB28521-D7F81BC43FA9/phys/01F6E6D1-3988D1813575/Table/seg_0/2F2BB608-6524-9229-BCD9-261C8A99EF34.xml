@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HOSPEDE" directorySegmentName="seg_0" id="2F2BB608-6524-9229-BCD9-261C8A99EF34">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_HOSPEDE" directorySegmentName="seg_0" id="2F2BB608-6524-9229-BCD9-261C8A99EF34">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -12,32 +12,32 @@
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="UNM_HOS" id="0DE79C79-37C4-22B2-12EE-82979713E9CC">
+<ColumnProxy name="UNM_HOSPEDE" id="0DE79C79-37C4-22B2-12EE-82979713E9CC">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="EMAIL_HOS" id="1503F9A0-AC26-9E3D-A5CF-8C063FDC4411">
+<ColumnProxy name="EMAIL_HOSPEDE" id="1503F9A0-AC26-9E3D-A5CF-8C063FDC4411">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="PNM_HOS" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
+<ColumnProxy name="PNM_HOSPEDE" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="DAT_NASCIMENTO_HOS" id="4C508909-4A59-6508-829E-010EDB9F6583">
+<ColumnProxy name="DAT_NASCIMENTO" id="4C508909-4A59-6508-829E-010EDB9F6583">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ID_HOS" id="5C011238-38CC-9D75-70E8-38AF29FB078A">
+<ColumnProxy name="ID_HOSPEDE" id="5C011238-38CC-9D75-70E8-38AF29FB078A">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="TEL_HOS" id="622E43E0-0AF7-51E3-669D-16F2A6AD98F7">
+<ColumnProxy name="TEL_HOSPEDE" id="622E43E0-0AF7-51E3-669D-16F2A6AD98F7">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -47,24 +47,32 @@
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CIDADE_HOS" id="E0CA27A2-E57B-68D6-E0AD-E1FA2C808E5F">
+<ColumnProxy name="CIDADE_HOSPEDE" id="E0CA27A2-E57B-68D6-E0AD-E1FA2C808E5F">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="PAIS_HOS" id="E8B32922-E462-605F-7EFC-AD6EAD675ECC">
+<ColumnProxy name="PAIS_HOSPEDE" id="E8B32922-E462-605F-7EFC-AD6EAD675ECC">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CPF_HOS" id="F367F83B-C1EA-C6B7-FA33-A45E3B256CE5">
+<ColumnProxy name="CPF_HOSPEDE" id="F367F83B-C1EA-C6B7-FA33-A45E3B256CE5">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_NOMES_HOSPEDE" id="50EEF2C9-20B7-73C1-5C99-D23E20AAF6B1">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:16:41 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+</indexProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HOSPEDE_PK" id="AC158771-B1A2-3060-546E-F853DE5732BF">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_HOSPEDE" id="AC158771-B1A2-3060-546E-F853DE5732BF">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -72,13 +80,13 @@
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="HOSPEDE_CPF_UN" id="3FFD08CE-4571-1CE9-DFEA-68110D0A0534">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_CPF_HOSPEDE" id="3FFD08CE-4571-1CE9-DFEA-68110D0A0534">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="HOSPEDE_EMAIL_UN" id="B04245F5-ED21-316E-5EB9-81493A1E0E46">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_EMAIL_HOSPEDE" id="B04245F5-ED21-316E-5EB9-81493A1E0E46">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

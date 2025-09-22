@@ -110,6 +110,24 @@
 <colUsage columnID="FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="FF8B0C72-469E-533C-E308-F532D94D4988" name="IDX_ID_TIPOQUARTO_QUARTO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:00:35 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3D4BA99-C468-E960-A342-61180EBBDBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FBF93B3-890B-805D-B6F9-5449C1808779" name="IDX_STATUS_QUARTO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:15:04 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2348EA-D79D-6C0E-5D1A-B7DC05D01DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="C9964BF4-61AE-028F-935F-4045E09CC575" name="FK_TIPOQUARTO_TAB_QUARTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-18 23:08:12 UTC</createdTime>

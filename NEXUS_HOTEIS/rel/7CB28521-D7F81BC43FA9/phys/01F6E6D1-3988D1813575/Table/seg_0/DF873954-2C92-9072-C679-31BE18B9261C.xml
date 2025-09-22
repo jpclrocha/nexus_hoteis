@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RESERVAS" directorySegmentName="seg_0" id="DF873954-2C92-9072-C679-31BE18B9261C">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_RESERVA" directorySegmentName="seg_0" id="DF873954-2C92-9072-C679-31BE18B9261C">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -53,15 +53,41 @@
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_DT_CHECKIN_RESERVA" id="12A94FC9-F35C-20AF-364D-499FFD26391F">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:14:25 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_DT_CHECKOUT_RESERVA" id="2FAF1054-6306-B0D5-222C-44FFB27FDC32">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:14:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_STATUS_RESERVA" id="73E95389-DCC0-E908-A37F-3255BD34F4D8">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:15:24 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_HOSPEDE_RESERVA" id="DBB51B93-7EA4-3F5F-01AA-A891F38684BD">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-21 23:59:48 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RESERVAS_HOSPEDE_FK" id="2F01980A-121D-142D-4384-E52D08056C2B">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HOSPEDE_RESERVA" id="2F01980A-121D-142D-4384-E52D08056C2B">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESERVAS_PK" id="70909D0F-7AA6-3D42-13B0-B4B0597E1E7E">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_RESERVA" id="70909D0F-7AA6-3D42-13B0-B4B0597E1E7E">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -69,7 +95,7 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="RESERVAS_STATUS_CK" id="314BAE4E-FC23-0C21-B821-40E806A84A92">
+<TableCheckConstraint name="CK_STATUS_RESERVA" id="314BAE4E-FC23-0C21-B821-40E806A84A92">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

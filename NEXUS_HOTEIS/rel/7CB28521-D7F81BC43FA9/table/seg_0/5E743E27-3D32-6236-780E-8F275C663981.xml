@@ -118,6 +118,33 @@
 <colUsage columnID="E953CB74-B1CA-3F10-F949-9132C4E9CE16"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="2F4B6028-8A4F-0865-F91E-CA42689F91FD" name="IDX_ID_ESTADIA_CONSUMO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:02:23 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFF08A3E-0299-D5C3-307C-C94DB2876EAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BCD9A70-02D1-E9AD-15FB-40E2FD93CAF6" name="IDX_ID_SERVICO_CONSUMO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:02:23 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7228B078-54D4-764D-B3EE-579F55075130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2C2726C-0877-DB2B-0A5C-01C71999EAD1" name="IDX_ID_QUARTO_CONSUMO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:02:23 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C96F48F3-4A5E-CE2C-F61F-E494A520C8BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="9F90C2EA-19A0-16BB-2B88-A977562806A3" name="FK_ESTADIA_CONSUMO_SERVICO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:29:51 UTC</createdTime>

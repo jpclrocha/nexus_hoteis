@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="FATURAS" directorySegmentName="seg_0" id="F05181E4-B408-1F94-F46E-789B091D0E26">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_FATURA" directorySegmentName="seg_0" id="F05181E4-B408-1F94-F46E-789B091D0E26">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -53,15 +53,23 @@
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_STATUS_FATURA" id="36790445-A01C-EB6E-3274-1F9361D510A8">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:16:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FATURAS_ESTADIA_FK" id="6C57D0C9-DF4E-EC71-B311-9C9678823239">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTADIA_FATURAS" id="6C57D0C9-DF4E-EC71-B311-9C9678823239">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FATURAS_PK" id="89927CB3-639D-EB2F-9956-B519C7A7A858">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_FATURAS" id="89927CB3-639D-EB2F-9956-B519C7A7A858">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

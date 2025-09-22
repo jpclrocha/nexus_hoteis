@@ -127,6 +127,15 @@
 <colUsage columnID="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="36790445-A01C-EB6E-3274-1F9361D510A8" name="IDX_STATUS_FATURA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:16:11 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A461CD40-F5F0-606D-B4D0-3FC640C357A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FK_ESTADIA_FATURAS">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:39:04 UTC</createdTime>

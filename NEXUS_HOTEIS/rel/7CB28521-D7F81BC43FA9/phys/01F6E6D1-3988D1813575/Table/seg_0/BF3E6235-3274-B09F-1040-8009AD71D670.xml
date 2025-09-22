@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ESTADIA" directorySegmentName="seg_0" id="BF3E6235-3274-B09F-1040-8009AD71D670">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_ESTADIA" directorySegmentName="seg_0" id="BF3E6235-3274-B09F-1040-8009AD71D670">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -38,15 +38,29 @@
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_RESERVA_ESTADIA" id="031704F6-C723-C746-D2E8-B54499E1BE09">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:00:12 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_STATUS_ESTADIA" id="16157A58-AEB8-2964-B0A4-BC2C255CF3BD">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:15:46 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ESTADIA_RESERVAS_FK" id="2539D0CA-0D42-E7AA-70F0-929ACB5A34E9">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_RESERVA_ESTADIA" id="2539D0CA-0D42-E7AA-70F0-929ACB5A34E9">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESTADIA_PK" id="DFED9A50-58CF-9676-A66A-8375C5C26B1E">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ESTADIA" id="DFED9A50-58CF-9676-A66A-8375C5C26B1E">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -54,7 +68,7 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="ESTADIA_STATUS_CK" id="8A4F894A-EFA6-B3A0-C303-6537D8C9932C">
+<TableCheckConstraint name="CK_STATUS_ESTADIA" id="8A4F894A-EFA6-B3A0-C303-6537D8C9932C">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

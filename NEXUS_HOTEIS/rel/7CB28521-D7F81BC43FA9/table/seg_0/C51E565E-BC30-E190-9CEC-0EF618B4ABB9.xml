@@ -99,6 +99,15 @@
 <colUsage columnID="A5B02539-8AD6-CC33-D3FF-E2D51034B7B3"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F0C352DE-003B-D6EA-B970-1E7D89A4FF48" name="IDX_ID_FATURA_PAGAMENTO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:01:06 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F70566-D5CA-BCE0-C6B4-E9BBF2A63375"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="09D35082-E7AF-95E1-CFE1-46FAD30952D4" name="FK_FATURAS_PAGAMENTO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:43:26 UTC</createdTime>

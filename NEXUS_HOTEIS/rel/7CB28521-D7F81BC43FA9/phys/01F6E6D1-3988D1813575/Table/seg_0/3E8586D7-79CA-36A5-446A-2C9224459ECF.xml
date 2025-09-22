@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="QUARTOS" directorySegmentName="seg_0" id="3E8586D7-79CA-36A5-446A-2C9224459ECF">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_QUARTO" directorySegmentName="seg_0" id="3E8586D7-79CA-36A5-446A-2C9224459ECF">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -12,46 +12,60 @@
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="OBS_QRT" id="409660B6-A1EF-4904-CB06-0DFF7DB9AC21">
+<ColumnProxy name="OBS_QUARTO" id="409660B6-A1EF-4904-CB06-0DFF7DB9AC21">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ID_QRT" id="43B158DD-C81D-A9BA-B24D-DA419CC77D1D">
+<ColumnProxy name="ID_QUARTO" id="43B158DD-C81D-A9BA-B24D-DA419CC77D1D">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="STS_QRT" id="8E2348EA-D79D-6C0E-5D1A-B7DC05D01DAA">
+<ColumnProxy name="STS_QUARTO" id="8E2348EA-D79D-6C0E-5D1A-B7DC05D01DAA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="AND_QRT" id="D49C4F2B-EC66-BD34-9535-168FCA5AF76A">
+<ColumnProxy name="AND_QUARTO" id="D49C4F2B-EC66-BD34-9535-168FCA5AF76A">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ID_TP_QRT" id="F3D4BA99-C468-E960-A342-61180EBBDBCE">
+<ColumnProxy name="ID_TIPOQUARTO" id="F3D4BA99-C468-E960-A342-61180EBBDBCE">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NUM_QRT" id="FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6">
+<ColumnProxy name="NUM_QUARTO" id="FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_STATUS_QUARTO" id="2FBF93B3-890B-805D-B6F9-5449C1808779">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:15:04 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_TIPOQUARTO_QUARTO" id="FF8B0C72-469E-533C-E308-F532D94D4988">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:00:35 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="QUARTOS_TIPOS_QUARTO_FK" id="C9964BF4-61AE-028F-935F-4045E09CC575">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_TIPOQUARTO_TAB_QUARTO" id="C9964BF4-61AE-028F-935F-4045E09CC575">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="QUARTOS_PK" id="D8819D10-8430-1738-1854-963081C7BC03">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_QUARTO" id="D8819D10-8430-1738-1854-963081C7BC03">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -59,14 +73,14 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="QUARTOS_STATUS_CK" id="932FFD96-BD99-877C-25E6-1DE83725FC57">
+<TableCheckConstraint name="CK_STATUS_QUARTO" id="932FFD96-BD99-877C-25E6-1DE83725FC57">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </TableCheckConstraint>
 </tableCheckConstraints>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="QUARTOS_NUMERO_UNIQUE" id="A79E2974-76C8-066E-D0BF-067E908A3EC8">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NUMERO_QUARTO" id="A79E2974-76C8-066E-D0BF-067E908A3EC8">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

@@ -87,6 +87,24 @@
 <colUsage columnID="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="031704F6-C723-C746-D2E8-B54499E1BE09" name="IDX_ID_RESERVA_ESTADIA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:00:12 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B579450-338A-1D1D-2698-DC40D7BF5BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16157A58-AEB8-2964-B0A4-BC2C255CF3BD" name="IDX_STATUS_ESTADIA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:15:46 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D8B1A96-B026-A298-7A3E-74F9C965EA71"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="2539D0CA-0D42-E7AA-70F0-929ACB5A34E9" name="FK_RESERVA_ESTADIA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:13:38 UTC</createdTime>

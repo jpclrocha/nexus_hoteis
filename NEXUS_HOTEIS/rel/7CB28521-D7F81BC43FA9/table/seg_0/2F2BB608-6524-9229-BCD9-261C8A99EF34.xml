@@ -164,5 +164,15 @@
 <colUsage columnID="1503F9A0-AC26-9E3D-A5CF-8C063FDC4411"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="50EEF2C9-20B7-73C1-5C99-D23E20AAF6B1" name="IDX_NOMES_HOSPEDE">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:16:41 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37C2DA23-825B-ABDF-2642-AE4F06893838"/>
+<colUsage columnID="0DE79C79-37C4-22B2-12EE-82979713E9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 </indexes>
 </Table>

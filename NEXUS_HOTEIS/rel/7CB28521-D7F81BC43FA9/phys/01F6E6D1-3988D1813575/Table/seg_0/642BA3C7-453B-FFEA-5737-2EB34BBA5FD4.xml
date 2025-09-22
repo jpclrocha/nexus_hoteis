@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="FUNCIONARIO" directorySegmentName="seg_0" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_FUNCIONARIO" directorySegmentName="seg_0" id="642BA3C7-453B-FFEA-5737-2EB34BBA5FD4">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -58,15 +58,23 @@
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_CARGO_FUNCIONARIO" id="9332BF38-7DDB-8B22-9CAD-6E89F67911BC">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-21 23:55:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<user>621FB15E-2FE0-7A92-31CC-89D1039A2193</user>
+</IndexProxy>
+</indexProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FUNCIONARIO_CARGOS_FK" id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CARGO_FUNCIONARIO" id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FUNCIONARIO_PK" id="E8B6B033-CE17-EED3-ABB4-A201F05D90C3">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_FUNCIONARIO" id="E8B6B033-CE17-EED3-ABB4-A201F05D90C3">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -74,14 +82,14 @@
 </PrimaryKey>
 </primaryKeys>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
-<TableCheckConstraint name="FUNCIONARIO_CK_1" id="ADC9BCD4-31F2-C70C-1C4C-70DEB0541CAD">
+<TableCheckConstraint name="CK_STATUS_FUNCIONARIO" id="ADC9BCD4-31F2-C70C-1C4C-70DEB0541CAD">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </TableCheckConstraint>
 </tableCheckConstraints>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="FUNCIONARIO_USERNAME_UN" id="EED85078-9C45-0659-27AD-34EC5C6F3BF9">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_USER_FUNCIONARIO" id="EED85078-9C45-0659-27AD-34EC5C6F3BF9">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

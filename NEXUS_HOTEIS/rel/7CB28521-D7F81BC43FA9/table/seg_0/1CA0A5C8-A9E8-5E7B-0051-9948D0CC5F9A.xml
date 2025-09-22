@@ -90,6 +90,24 @@
 <colUsage columnID="55902D87-A8B8-700C-5444-8E1D6555FF54"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="F878800E-AD8C-3E24-F101-2C4EF4B79979" name="IDX_ID_TIPO_QUARTO_TARIFA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:03:39 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31F23B33-F92C-22B9-4057-80E1320ACDCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C822348-BEA0-9F67-1778-A67B3D3D5B9E" name="IDX_ID_PERIODO_TARIFA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:03:53 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8EB3ED-1054-C813-4105-3912E8B20DFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="FK_TIPO_QUARTO_TARIFA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:26:30 UTC</createdTime>

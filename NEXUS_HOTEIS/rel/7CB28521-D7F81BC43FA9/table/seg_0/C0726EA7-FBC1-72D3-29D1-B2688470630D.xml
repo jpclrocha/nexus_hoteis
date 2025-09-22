@@ -69,6 +69,15 @@
 <colUsage columnID="939364C6-265F-1931-B915-2EEE94C7DFAC"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="86587F77-824F-72E2-DFD7-C87DF02DB2C8" name="IDX_ID_HOSPEDE_HOSP_ESTADIA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:04:37 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="404C96E5-E91D-A249-12E0-4E2EA333BAAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5B487469-6B9D-8161-28C7-6C12E904C2D3" name="FK_ESTADIA_TAB_HOSPEDE_ESTADIA">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:04:53 UTC</createdTime>

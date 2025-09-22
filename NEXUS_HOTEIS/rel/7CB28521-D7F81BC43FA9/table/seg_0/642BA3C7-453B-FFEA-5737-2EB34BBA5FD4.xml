@@ -145,6 +145,15 @@
 <colUsage columnID="38522935-5D17-3F9A-5CD1-2BD42AA7F25C"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9332BF38-7DDB-8B22-9CAD-6E89F67911BC" name="IDX_ID_CARGO_FUNCIONARIO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-21 23:55:51 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C54910C-D64D-19BB-2FEF-B85C3762395F"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="D95A4FC0-FA8B-7DE4-87F9-1354A48FCDE4" name="FK_CARGO_FUNCIONARIO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:14:47 UTC</createdTime>

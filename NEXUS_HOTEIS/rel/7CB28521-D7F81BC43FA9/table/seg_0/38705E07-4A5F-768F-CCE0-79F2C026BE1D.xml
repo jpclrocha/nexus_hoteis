@@ -113,6 +113,24 @@
 <colUsage columnID="9A99BBE0-C0C9-2987-75C8-77AB9C54B00B"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="866B4D52-51BF-127C-5BF6-402E4C927112" name="IDX_ID_ESTADIA_AVALIACAO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:03:09 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8CA8C8D-5224-1214-5454-09EDA4C4F311"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C1F2770-298E-D74C-00A5-32E282EE1CD2" name="IDX_ID_HOSPEDE_AVALIACAO">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 00:03:09 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D4FF3B7-008C-050B-A25C-D990EF7FD5B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="CC0ACA42-D012-C909-E888-8C92A835FDCA" name="FK_ESTADIA_AVALIACAO">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-22 00:25:40 UTC</createdTime>

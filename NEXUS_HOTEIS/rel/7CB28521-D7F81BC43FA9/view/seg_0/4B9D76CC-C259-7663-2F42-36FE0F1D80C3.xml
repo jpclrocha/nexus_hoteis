@@ -13,7 +13,7 @@
 FROM
     SCH_NEXUS.TAB_ESTADIA e
 JOIN
-    SCH_NEXUS.TAB_RESERVAS r ON e.ID_RESERVA = r.ID_RESERVA
+    SCH_NEXUS.TAB_RESERVA r ON e.ID_RESERVA = r.ID_RESERVA
 JOIN
     SCH_NEXUS.TAB_HOSPEDE h ON r.ID_HOSPEDE_PRINCIPAL = h.ID_HOSPEDE
 JOIN
@@ -80,6 +80,11 @@ WHERE
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_ESTADIA</tableName>
 </UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="DF873954-2C92-9072-C679-31BE18B9261C">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_RESERVA</tableName>
+</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2F2BB608-6524-9229-BCD9-261C8A99EF34">
 <container>true</container>
 <schema>SCH_NEXUS</schema>
@@ -89,6 +94,11 @@ WHERE
 <columnName>ID_ESTADIA</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="738BDC83-44ED-CFA5-FAAF-DDFD694D7642">
+<columnName>DAT_CHECKOUT_PREVISTA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_RESERVA</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
 <columnName>PNM_HOSPEDE</columnName>
@@ -114,6 +124,16 @@ WHERE
 <columnName>STS_ESTADIA</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8">
+<columnName>ID_RESERVA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_RESERVA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72">
+<columnName>ID_HOSPEDE_PRINCIPAL</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_RESERVA</tableName>
 </UsedObject>
 </usedObjects>
 </TableView>
