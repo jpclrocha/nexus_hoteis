@@ -23,7 +23,7 @@ LEFT JOIN
 LEFT JOIN
     SCH_NEXUS.TAB_RESERVA r ON e.ID_RESERVA = r.ID_RESERVA
 LEFT JOIN
-    SCH_NEXUS.TAB_HOSPEDE h ON r.ID_HOSPEDE_PRINCIPAL = h.ID_HOS
+    SCH_NEXUS.TAB_HOSPEDE h ON r.ID_HOSPEDE_PRINCIPAL = h.ID_HOSPEDE
 ORDER BY
     q.NUM_QUARTO;]]></userDefinedSQL>
 <parsed>true</parsed>
@@ -163,6 +163,11 @@ ORDER BY
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
 <columnName>PNM_HOSPEDE</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="5C011238-38CC-9D75-70E8-38AF29FB078A">
+<columnName>ID_HOSPEDE</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_HOSPEDE</tableName>
 </UsedObject>

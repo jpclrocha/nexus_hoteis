@@ -17,9 +17,9 @@ JOIN
 JOIN
     SCH_NEXUS.TAB_HOSPEDE h ON r.ID_HOSPEDE_PRINCIPAL = h.ID_HOSPEDE
 JOIN
-    SCH_NEXUS.TAB_HOSPEDES_ESTADIA he ON e.ID_ESTADIA = he.ID_ESTADIA
+    SCH_NEXUS.TAB_HOSPEDE_ESTADIA he ON e.ID_ESTADIA = he.ID_ESTADIA
 JOIN
-    SCH_NEXUS.TAB_QUARTOS q ON he.ID_QUARTO = q.ID_QUARTO
+    SCH_NEXUS.TAB_QUARTO q ON he.ID_QUARTO = q.ID_QUARTO
 WHERE
     e.STS_ESTADIA = 'HOSPEDADO'
     AND TRUNC(r.DAT_CHECKOUT_PREVISTA) = TRUNC(SYSDATE);]]></userDefinedSQL>
@@ -90,15 +90,35 @@ WHERE
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_HOSPEDE</tableName>
 </UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C0726EA7-FBC1-72D3-29D1-B2688470630D">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_HOSPEDE_ESTADIA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3E8586D7-79CA-36A5-446A-2C9224459ECF">
+<container>true</container>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_QUARTO</tableName>
+</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78">
 <columnName>ID_ESTADIA</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_ESTADIA</tableName>
 </UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FE1DF9BF-6D7F-3E76-A55B-9C682F836EB6">
+<columnName>NUM_QUARTO</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_QUARTO</tableName>
+</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="738BDC83-44ED-CFA5-FAAF-DDFD694D7642">
 <columnName>DAT_CHECKOUT_PREVISTA</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_RESERVA</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="43B158DD-C81D-A9BA-B24D-DA419CC77D1D">
+<columnName>ID_QUARTO</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_QUARTO</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="37C2DA23-825B-ABDF-2642-AE4F06893838">
 <columnName>PNM_HOSPEDE</columnName>
@@ -110,10 +130,20 @@ WHERE
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_HOSPEDE</tableName>
 </UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="939364C6-265F-1931-B915-2EEE94C7DFAC">
+<columnName>ID_QUARTO</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_HOSPEDE_ESTADIA</tableName>
+</UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0DE79C79-37C4-22B2-12EE-82979713E9CC">
 <columnName>UNM_HOSPEDE</columnName>
 <schema>SCH_NEXUS</schema>
 <tableName>TAB_HOSPEDE</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1720C1D4-52C9-14BA-7222-5A837AE9CAF0">
+<columnName>ID_ESTADIA</columnName>
+<schema>SCH_NEXUS</schema>
+<tableName>TAB_HOSPEDE_ESTADIA</tableName>
 </UsedObject>
 <UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B579450-338A-1D1D-2698-DC40D7BF5BDA">
 <columnName>ID_RESERVA</columnName>

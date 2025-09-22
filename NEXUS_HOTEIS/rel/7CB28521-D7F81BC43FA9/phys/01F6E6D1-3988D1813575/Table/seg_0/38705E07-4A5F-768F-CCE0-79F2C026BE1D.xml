@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_AVALIACAO" directorySegmentName="seg_0" id="38705E07-4A5F-768F-CCE0-79F2C026BE1D">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_HOSPEDE" id="2D4FF3B7-008C-050B-A25C-D990EF7FD5B9">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PONT_ATENDIMENTO" id="479774EE-3F90-2721-5E39-C0B8B370DABD">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PONT_GERAL" id="7D865A3D-B962-3AAE-04ED-8E27E83369D7">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_AVALIACAO" id="9A99BBE0-C0C9-2987-75C8-77AB9C54B00B">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PONT_COMODIDADES" id="AB744533-1159-73E1-38F4-3A9C3AF2A574">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PONT_LIMPEZA" id="AFCE4B9D-3D23-ED16-E023-F7539875AE28">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ESTADIA" id="E8CA8C8D-5224-1214-5454-09EDA4C4F311">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_HOSPEDE_AVALIACAO" id="0C1F2770-298E-D74C-00A5-32E282EE1CD2">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_ESTADIA_AVALIACAO" id="866B4D52-51BF-127C-5BF6-402E4C927112">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HOSPEDE_AVALIACAO" id="1A78F1E1-718E-A8A7-67FB-F6EE9A543D07">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ESTADIA_AVALIACAO" id="CC0ACA42-D012-C909-E888-8C92A835FDCA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_AVALIACAO" id="AB482906-66E6-2952-AF4C-FE94354CEEDA">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

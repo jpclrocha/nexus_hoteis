@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFA26F68-1B53-1252-81E8-34F6CAE5A2C6" name="TAB_QUARTO_COMODIDADE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFA26F68-1B53-1252-81E8-34F6CAE5A2C6" schemaObject="D9D2BAC5-5ACC-E7C4-FE11-352225AD3138" name="TAB_QUARTO_COMODIDADE">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-30 22:32:46 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

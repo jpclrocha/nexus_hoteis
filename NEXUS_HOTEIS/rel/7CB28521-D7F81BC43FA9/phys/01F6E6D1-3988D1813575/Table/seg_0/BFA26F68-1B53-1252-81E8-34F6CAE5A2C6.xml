@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_QUARTO_COMODIDADE" directorySegmentName="seg_0" id="BFA26F68-1B53-1252-81E8-34F6CAE5A2C6">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_QUARTO" id="02AC6987-9065-2963-9E85-0B47D231F10B">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMODIDADE" id="073B84AB-A5BB-9BFE-185C-CECF3404E50C">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COMODIDADE" id="AD183A61-F411-EB1F-6410-47D9E0510DBE">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_QUARTO" id="C8B3042C-6D53-E5C5-9F77-84D991348C0D">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_QUARTO_COMODIDADE" id="20E89F1F-0041-7D49-E12A-4A609A14F6DC">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

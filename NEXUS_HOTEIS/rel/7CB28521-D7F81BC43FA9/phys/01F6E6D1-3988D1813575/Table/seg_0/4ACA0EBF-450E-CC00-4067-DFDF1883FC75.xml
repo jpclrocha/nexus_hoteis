@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_COMODIDADE" directorySegmentName="seg_0" id="4ACA0EBF-450E-CC00-4067-DFDF1883FC75">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_COMODIDADE" id="C7726404-01B8-C845-A7C5-8BA0AE4025E0">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_COMODIDADE" id="E34F2B03-816A-06F7-8BB0-FBD8D117BEB2">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_COMODIDADE" id="F6FBEA00-373E-7D95-30C4-991EB9B9B02A">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NOME_COMODIDADE" id="36BD1C96-D889-4440-8338-14883EAB321A">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 11:51:43 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
