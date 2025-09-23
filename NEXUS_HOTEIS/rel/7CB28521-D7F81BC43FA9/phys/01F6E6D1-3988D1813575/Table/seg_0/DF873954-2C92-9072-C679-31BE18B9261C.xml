@@ -6,6 +6,7 @@
 <schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F358F10-6128-2F1F-8176-F3C7772E0FA3</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -58,24 +59,32 @@
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:14:25 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<segment>A3082B9D-D581-A4BE-4E61-6E60E845AE66</segment>
+<tableSpace>0CD9BD06-2413-11AC-9BFC-7EFC51747FB7</tableSpace>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_DT_CHECKOUT_RESERVA" id="2FAF1054-6306-B0D5-222C-44FFB27FDC32">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:14:43 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<segment>A3082B9D-D581-A4BE-4E61-6E60E845AE66</segment>
+<tableSpace>0CD9BD06-2413-11AC-9BFC-7EFC51747FB7</tableSpace>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_STATUS_RESERVA" id="73E95389-DCC0-E908-A37F-3255BD34F4D8">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:15:24 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<segment>A3082B9D-D581-A4BE-4E61-6E60E845AE66</segment>
+<tableSpace>0CD9BD06-2413-11AC-9BFC-7EFC51747FB7</tableSpace>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 </IndexProxy>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_ID_HOSPEDE_RESERVA" id="DBB51B93-7EA4-3F5F-01AA-A891F38684BD">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-21 23:59:48 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<segment>A3082B9D-D581-A4BE-4E61-6E60E845AE66</segment>
+<tableSpace>0CD9BD06-2413-11AC-9BFC-7EFC51747FB7</tableSpace>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 </IndexProxy>
 </indexProxies>

@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CARGOS" directorySegmentName="seg_0" id="AD7F5E4D-CA76-F9E2-9B08-3EF84428F392">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_CARGO" directorySegmentName="seg_0" id="AD7F5E4D-CA76-F9E2-9B08-3EF84428F392">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <schemaObject>0215586B-4CDB-A65F-16CF-A9C3C7850896</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>04848F43-9497-A7B6-D9EB-0A0C99454A8E</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>621FB15E-2FE0-7A92-31CC-89D1039A2193</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -24,7 +25,7 @@
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARGOS_PK" id="8B63F6EE-F615-97D1-F573-4F3B92537D6B">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CARGO" id="8B63F6EE-F615-97D1-F573-4F3B92537D6B">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -32,7 +33,7 @@
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CARGOS_NOME_UN" id="CE3DABBD-2C83-E0F1-9F8F-513A9A38FE9C">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NOME_CARGO" id="CE3DABBD-2C83-E0F1-9F8F-513A9A38FE9C">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

@@ -4,4 +4,5 @@
 **/*.DS_Store
 *.zip
 *.docx
+*.ods
 COMANDOS-DBA.sql

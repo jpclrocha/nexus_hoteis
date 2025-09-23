@@ -6,6 +6,7 @@
 <schemaObject>0215586B-4CDB-A65F-16CF-A9C3C7850896</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>04848F43-9497-A7B6-D9EB-0A0C99454A8E</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>621FB15E-2FE0-7A92-31CC-89D1039A2193</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -63,6 +64,8 @@
 <createdBy>jope</createdBy>
 <createdTime>2025-09-21 23:55:51 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<segment>65CA7709-A187-F59A-15CE-E18A0F005724</segment>
+<tableSpace>1AE860FC-FC21-2BF2-1800-CB6ABB8C9DA1</tableSpace>
 <user>621FB15E-2FE0-7A92-31CC-89D1039A2193</user>
 </IndexProxy>
 </indexProxies>

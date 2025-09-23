@@ -1,45 +1,41 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TIPOS_QUARTO" directorySegmentName="seg_0" id="1E4E9BFA-09D8-1086-6526-B0FA74C22A2B">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_TIPO_QUARTO" directorySegmentName="seg_0" id="1E4E9BFA-09D8-1086-6526-B0FA74C22A2B">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F358F10-6128-2F1F-8176-F3C7772E0FA3</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="DESC_TP_QRT" id="42EA15A9-1A92-DC61-D2E5-AFF68BFDB36C">
+<ColumnProxy name="DESC_TIPO" id="42EA15A9-1A92-DC61-D2E5-AFF68BFDB36C">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="CAP_MAXIMA_TP_QRT" id="67889635-E178-A02E-D45F-1FBA888DECD2">
+<ColumnProxy name="CAP_MAXIMA" id="67889635-E178-A02E-D45F-1FBA888DECD2">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="NOME_TP_QRT" id="865F99CF-1A55-BDD7-C9D3-79CFE4BAEDB2">
+<ColumnProxy name="NOM_TIPO" id="865F99CF-1A55-BDD7-C9D3-79CFE4BAEDB2">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="ID_TP_QRT" id="A0E0497B-E535-2815-6F4E-33716FBAD9A5">
-<createdBy>JoPe</createdBy>
-<createdTime>2025-08-20 03:06:07 UTC</createdTime>
-<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="COMODIDADES_TP_QRT" id="E472AAEC-D25C-F131-4140-94B3D248564F">
+<ColumnProxy name="ID_TIPO" id="A0E0497B-E535-2815-6F4E-33716FBAD9A5">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPOS_QUARTO_PK" id="B2C14E9E-BF18-4E37-08F9-502356FE3F52">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TIPO_QUARTO" id="B2C14E9E-BF18-4E37-08F9-502356FE3F52">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -47,7 +43,7 @@
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TIPOS_QUARTO_NOME_UNIQUE" id="F2E4F34C-B952-5506-A5EF-B822FE455719">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="AK_NOME_TIPO_QUARTO" id="F2E4F34C-B952-5506-A5EF-B822FE455719">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

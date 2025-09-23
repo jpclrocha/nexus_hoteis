@@ -6,6 +6,7 @@
 <schemaObject>D9D2BAC5-5ACC-E7C4-FE11-352225AD3138</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F358F10-6128-2F1F-8176-F3C7772E0FA3</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>C4CB8272-BD2E-2049-4B1B-FD43BB0A1078</user>
 <accessDriverType>oracle_loader</accessDriverType>

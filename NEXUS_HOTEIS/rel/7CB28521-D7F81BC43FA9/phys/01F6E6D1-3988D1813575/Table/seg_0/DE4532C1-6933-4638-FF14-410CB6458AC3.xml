@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CARGOS_PERMISSOES" directorySegmentName="seg_0" id="DE4532C1-6933-4638-FF14-410CB6458AC3">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TAB_CARGO_PERMISSAO" directorySegmentName="seg_0" id="DE4532C1-6933-4638-FF14-410CB6458AC3">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <schemaObject>0215586B-4CDB-A65F-16CF-A9C3C7850896</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>04848F43-9497-A7B6-D9EB-0A0C99454A8E</segment>
 <temporaryChanged>false</temporaryChanged>
 <user>621FB15E-2FE0-7A92-31CC-89D1039A2193</user>
 <accessDriverType>oracle_loader</accessDriverType>
@@ -24,19 +25,19 @@
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CARGOS_PERMISSOES_PERMISSOES_FK" id="7C5E5B02-DC75-5533-1DF9-EF2AA5069AA1">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PERMISSAO_TAB_CARGO_PERMISSAO" id="7C5E5B02-DC75-5533-1DF9-EF2AA5069AA1">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CARGOS_PERMISSOES_CARGOS_FK" id="9794D000-E91E-1A17-91DB-CDF47BF54AA1">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CARGO_TAB_CARGO_PERMISSAO" id="9794D000-E91E-1A17-91DB-CDF47BF54AA1">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARGOS_PERMISSOES_PK" id="7DDE83F4-2E31-76CC-B8EF-08900F723FB9">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_CARGO_PERMISSAO" id="7DDE83F4-2E31-76CC-B8EF-08900F723FB9">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:07 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

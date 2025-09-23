@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TBS_NEXUS_DATA" directorySegmentName="seg_0" id="9F3F3077-C712-BF44-9C5C-881D6E78BC87">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 16:04:40 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>1</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<segmentManagement>AUTO</segmentManagement>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="DF_TBS_NEXUS_DATA_01" id="130B40C0-C6F0-2991-0B76-A63784005359">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 16:34:21 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>DF_TBS_NEXUS_DATA</fileName>
+<measureUnit>M</measureUnit>
+<nextBlockSize>10</nextBlockSize>
+<nextBlockSizeUnit>M</nextBlockSizeUnit>
+<size>15</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

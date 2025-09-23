@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="ST_NEXUS_INDEX" directorySegmentName="seg_0" id="A3082B9D-D581-A4BE-4E61-6E60E845AE66">
+<createdBy>jope</createdBy>
+<createdTime>2025-09-22 16:44:47 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<tableSpace>0CD9BD06-2413-11AC-9BFC-7EFC51747FB7</tableSpace>
+</SegmentOraclev10g>
