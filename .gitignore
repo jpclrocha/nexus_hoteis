@@ -3,6 +3,7 @@
 **/*.git
 **/*.DS_Store
 *.zip
+zips/
 *.docx
 *.ods
 COMANDOS-DBA.sql

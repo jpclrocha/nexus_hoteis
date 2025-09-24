@@ -4,6 +4,7 @@
 <createdTime>2025-08-19 14:06:33 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_4</ordsAlias>
+<abbreviation>TAB_PRD_TAR</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>PERIODO_TARIFA_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>PERIODO_TARIFA_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>PERIODO_TARIFA_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_PRD_TAR</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_PRD_TAR</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_PERIODO_TAB_PRD_TAR</notNullConstraintName>
 </Column>
 <Column name="NOM_PERIODO" id="78EA6048-36BC-CF55-BB2E-CA3B03D99596">
 <createdBy>JoPe</createdBy>
@@ -33,7 +34,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TARIFA_PERIODO_NOME_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NOM_PERIODO_TAB_PRD_TAR</notNullConstraintName>
 </Column>
 <Column name="DAT_INICIO" id="4290ACFC-4C6C-3804-221B-0330E1BA909D">
 <createdBy>JoPe</createdBy>
@@ -44,7 +45,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PERIODO_TARIFA_DATA_INICIO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_INICIO_TAB_PRD_TAR</notNullConstraintName>
 </Column>
 <Column name="DAT_FIM" id="54479808-4CA8-01C3-4A45-BC00A6701E07">
 <createdBy>JoPe</createdBy>
@@ -55,11 +56,11 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PERIODO_TARIFA_DATA_FIM_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_FIM_TAB_PRD_TAR</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="764F68C0-CC0A-546F-E76F-41254E269443" name="PK_PERIODO_TARIFA">
+<ind_PK_UK id="764F68C0-CC0A-546F-E76F-41254E269443" name="PK_TAB_PRD_TAR">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:10:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

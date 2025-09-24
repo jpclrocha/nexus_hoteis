@@ -4,6 +4,7 @@
 <createdTime>2025-08-18 22:30:39 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_2</ordsAlias>
+<abbreviation>TAB_TP_QRT</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>TIPOS_QUARTO_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>TIPOS_QUARTO_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>NNC_TIPOS_QUARTO_id_tipo_quarto</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_TP_QRT</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_TP_QRT</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_TP_QRT</notNullConstraintName>
 </Column>
 <Column name="NOM_TIPO" id="865F99CF-1A55-BDD7-C9D3-79CFE4BAEDB2">
 <createdBy>JoPe</createdBy>
@@ -33,7 +34,7 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TIPO_QUARTO_NOME_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NOM_TIPO_TAB_TP_QRT</notNullConstraintName>
 </Column>
 <Column name="CAP_MAXIMA" id="67889635-E178-A02E-D45F-1FBA888DECD2">
 <createdBy>JoPe</createdBy>
@@ -45,7 +46,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TIPO_QUARTO_CAPACIDADE_MAXIMA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_CAP_MAX_TAB_TP_QRT</notNullConstraintName>
 </Column>
 <Column name="DESC_TIPO" id="42EA15A9-1A92-DC61-D2E5-AFF68BFDB36C">
 <createdBy>JoPe</createdBy>
@@ -57,11 +58,11 @@
 <dataTypeSize>500 CHAR</dataTypeSize>
 <ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TIPO_QUARTO_DESCRICAO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DESC_TIPO_TAB_TP_QRT</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B2C14E9E-BF18-4E37-08F9-502356FE3F52" name="PK_TIPO_QUARTO">
+<ind_PK_UK id="B2C14E9E-BF18-4E37-08F9-502356FE3F52" name="PK_TAB_TP_QRT">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-18 22:33:23 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -72,7 +73,7 @@
 <colUsage columnID="A0E0497B-E535-2815-6F4E-33716FBAD9A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F2E4F34C-B952-5506-A5EF-B822FE455719" name="AK_NOME_TIPO_QUARTO">
+<ind_PK_UK id="F2E4F34C-B952-5506-A5EF-B822FE455719" name="AK_NOM_TIPO_TAB_TP_QRT">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-18 23:02:22 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

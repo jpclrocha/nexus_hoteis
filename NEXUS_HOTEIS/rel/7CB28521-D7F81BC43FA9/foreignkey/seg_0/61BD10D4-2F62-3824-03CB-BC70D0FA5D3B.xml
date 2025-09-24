@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61BD10D4-2F62-3824-03CB-BC70D0FA5D3B" containerWithKeyObject="C0726EA7-FBC1-72D3-29D1-B2688470630D" localFKIndex="65B12B1E-D881-5C61-E1EA-2FFA9DC400CD" name="FK_HOSPEDE_TAB_HOSPEDE_ESTADIA">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61BD10D4-2F62-3824-03CB-BC70D0FA5D3B" containerWithKeyObject="C0726EA7-FBC1-72D3-29D1-B2688470630D" localFKIndex="65B12B1E-D881-5C61-E1EA-2FFA9DC400CD" name="FK_HOSPEDE_TAB_HSP_EST">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:05:06 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>SCH_NEXUS.HOSPEDE</referredTableLongName>
+<referredTableLongName>SCH_NEXUS.TAB_HOSPEDE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2F2BB608-6524-9229-BCD9-261C8A99EF34</referredTableID>
 <keyObject>AC158771-B1A2-3060-546E-F853DE5732BF</keyObject>
 <referredKeyID>AC158771-B1A2-3060-546E-F853DE5732BF</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>ID_HOS</refColNames>
+<refColNames>ID_HOSPEDE</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

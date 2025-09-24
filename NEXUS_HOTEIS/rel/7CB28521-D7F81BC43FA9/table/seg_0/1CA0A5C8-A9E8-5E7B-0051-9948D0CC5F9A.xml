@@ -4,6 +4,7 @@
 <createdTime>2025-08-19 14:16:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_5</ordsAlias>
+<abbreviation>TAB_TAR</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>TARIFA_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>TARIFA_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>TARIFA_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_TAR</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_TAR</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_TAR</notNullConstraintName>
 </Column>
 <Column name="ID_TIPO_QUARTO" id="31F23B33-F92C-22B9-4057-80E1320ACDCB">
 <createdBy>JoPe</createdBy>
@@ -33,7 +34,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TARIFA_ID_TIPO_QUARTO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_TIP_QRT_TAB_TAR</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="69CD88F9-02A7-03A5-EA6A-DE54FCEC4997" referredColumn="A0E0497B-E535-2815-6F4E-33716FBAD9A5"/>
 </associations>
@@ -48,6 +49,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ID_PER_TAR_TAB_TAR</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="CDAF7F15-97A5-A8EC-9DD6-2BAB5CBE7CC1" referredColumn="ED149497-ED6C-37EB-6192-3DBE203797B4"/>
 </associations>
@@ -63,7 +65,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TARIFA_PRECO_DIARIA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_VAL_DIA_TAB_TAR</notNullConstraintName>
 </Column>
 <Column name="DIA_SEMANA" id="E7AC3437-F9F5-21BF-5168-858222873621">
 <createdBy>JoPe</createdBy>
@@ -75,11 +77,11 @@
 <dataTypeSize>15 CHAR</dataTypeSize>
 <ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TARIFA_DIA_SEMANA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DIA_SEMA_TAB_TAR</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="329261AC-B55E-1045-41A6-093941A6DCC3" name="PK_TARIFA">
+<ind_PK_UK id="329261AC-B55E-1045-41A6-093941A6DCC3" name="PK_TAB_TAR">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:16:42 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -90,7 +92,7 @@
 <colUsage columnID="55902D87-A8B8-700C-5444-8E1D6555FF54"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F878800E-AD8C-3E24-F101-2C4EF4B79979" name="IDX_ID_TIPO_QUARTO_TARIFA">
+<ind_PK_UK id="F878800E-AD8C-3E24-F101-2C4EF4B79979" name="IX_ID_TP_QRT_TAB_TAR">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:03:39 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -99,7 +101,7 @@
 <colUsage columnID="31F23B33-F92C-22B9-4057-80E1320ACDCB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C822348-BEA0-9F67-1778-A67B3D3D5B9E" name="IDX_ID_PERIODO_TARIFA">
+<ind_PK_UK id="0C822348-BEA0-9F67-1778-A67B3D3D5B9E" name="IX_ID_PER_TAR_TAB_TAR">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:03:53 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -108,7 +110,7 @@
 <colUsage columnID="4A8EB3ED-1054-C813-4105-3912E8B20DFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="FK_TIPO_QUARTO_TARIFA">
+<ind_PK_UK id="3A2B88D9-90B3-2E45-3804-8C962E2C3A8B" name="FK_TP_QRT_TAB_TAR">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:26:30 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -118,7 +120,7 @@
 <colUsage columnID="31F23B33-F92C-22B9-4057-80E1320ACDCB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="FK_PERIODO_TARIFA">
+<ind_PK_UK id="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="FK_PER_TAR_TAB_TAR">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:28:30 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

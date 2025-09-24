@@ -4,6 +4,7 @@
 <createdTime>2025-08-30 22:30:53 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_19</ordsAlias>
+<abbreviation>TAB_CMD</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>SEQ_ID_TAB_CMD</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_CMD</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_CMD</notNullConstraintName>
 </Column>
 <Column name="NOM_COMODIDADE" id="E34F2B03-816A-06F7-8BB0-FBD8D117BEB2">
 <createdBy>JoPe</createdBy>
@@ -29,11 +34,11 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>NN_NOME_COMODIDADE</notNullConstraintName>
+<notNullConstraintName>NN_NOM_TAB_CMD</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F6FBEA00-373E-7D95-30C4-991EB9B9B02A" name="PK_COMODIDADE">
+<ind_PK_UK id="F6FBEA00-373E-7D95-30C4-991EB9B9B02A" name="PK_TAB_CMD">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-30 22:31:56 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -44,7 +49,7 @@
 <colUsage columnID="C7726404-01B8-C845-A7C5-8BA0AE4025E0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="36BD1C96-D889-4440-8338-14883EAB321A" name="AK_NOME_COMODIDADE">
+<ind_PK_UK id="36BD1C96-D889-4440-8338-14883EAB321A" name="AK_NOM_TAB_CMD">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-30 22:32:29 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

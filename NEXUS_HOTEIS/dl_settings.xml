@@ -276,20 +276,20 @@
 			</domain>
 		</domains>
 		<constraints>
-			<pk value="{table}_PK"/>
-			<fk value="{child}_{parent}_FK"/>
-			<ck value="{table}_CK"/>
-			<un value="{table}_{column}_UN"/>
-			<idx value="{table}_{column}_IDX"/>
-			<automatic_idx value="{table}_{column}_IDX"/>
-			<colck value="CK_{table}_{column}"/>
-			<colnnc value="NNC_{table abbr}_{column}"/>
+			<pk value="PK_{table abbr}"/>
+			<fk value="FK_{child}_{parent}"/>
+			<ck value="CK_{column}_{table abbr}"/>
+			<un value="AK_{column}_{table abbr}"/>
+			<idx value="IX_{column}_{table abbr}"/>
+			<automatic_idx value="IX_{column}_{table abbr}"/>
+			<colck value="CK_{column}_{table abbr}"/>
+			<colnnc value="NN_{column}_{table abbr}"/>
 			<column_foreign_key value="{ref table}_{ref column}"/>
-			<ui value="{entity} PK"/>
+			<ui value="PK {entity}"/>
 			<relation_attribute value="{ref entity}_{ref attribute}"/>
-			<surrogate_key value="{table abbr}_PK"/>
-			<surrogate_key_col value="{table abbr}_ID"/>
-			<discriminator_col value="{table abbr}_TYPE"/>
+			<surrogate_key value="PK_{table abbr}"/>
+			<surrogate_key_col value="ID_{table abbr}"/>
+			<discriminator_col value="TYPE_{table abbr}"/>
 		</constraints>
 		<glossaries>
 		</glossaries>

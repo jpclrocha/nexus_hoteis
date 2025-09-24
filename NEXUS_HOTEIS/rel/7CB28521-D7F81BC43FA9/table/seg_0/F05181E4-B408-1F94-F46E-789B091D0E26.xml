@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 16:35:17 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
-<abbreviation>FAT</abbreviation>
+<abbreviation>TAB_FAT</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>FATURA_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>FATURA_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>FATURA_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_FAT</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_FAT</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="ID_ESTADIA" id="99EF791F-BE12-EE4A-E351-E5A5C23F52AD">
 <createdBy>JoPe</createdBy>
@@ -34,7 +34,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_ESTADIA_TAB_FAT</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="325D50E6-5116-B664-58CC-16A55C4E3269" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
 </associations>
@@ -48,7 +48,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_DATA_EMISSAO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_EMISSAO_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="VAL_TOTAL_DIARIAS" id="4133B95A-A7DF-3A3C-3BC5-8AF88F13AC83">
 <createdBy>JoPe</createdBy>
@@ -61,7 +61,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_TOTAL_DIARIAS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_VAL_TOT_DIARIAS_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="VAL_TOTAL_SERVICOS" id="BBDA6AE8-71F2-C197-2727-7A2B49AB6DCA">
 <createdBy>JoPe</createdBy>
@@ -74,7 +74,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_TOTAL_SERVICOS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_VAL_TOT_SERVI_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="VAL_IMPOSTOS" id="6377CC6C-C7E8-2F79-11E1-0A304BDF73BD">
 <createdBy>JoPe</createdBy>
@@ -87,7 +87,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_TOTAL_IMPOSTOS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_VAL_IMPOSTOS_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="VAL_FINAL" id="B3FFAF29-C53C-5AEA-1A8C-06EF6A56FB7A">
 <createdBy>JoPe</createdBy>
@@ -100,7 +100,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_VALOR_FINAL_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_VAL_FINAL_TAB_FAT</notNullConstraintName>
 </Column>
 <Column name="STS_FATURA" id="A461CD40-F5F0-606D-B4D0-3FC640C357A5">
 <createdBy>JoPe</createdBy>
@@ -112,11 +112,11 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>FATURA_STATUS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_STS_TAB_FAT</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="89927CB3-639D-EB2F-9956-B519C7A7A858" name="PK_FATURAS">
+<ind_PK_UK id="89927CB3-639D-EB2F-9956-B519C7A7A858" name="PK_TAB_FAT">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:35:36 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -127,7 +127,7 @@
 <colUsage columnID="8F3F9D72-0CC5-1154-2DE6-B10A1F0087A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="36790445-A01C-EB6E-3274-1F9361D510A8" name="IDX_STATUS_FATURA">
+<ind_PK_UK id="36790445-A01C-EB6E-3274-1F9361D510A8" name="IX_STS_TAB_FAT">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:16:11 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -136,7 +136,7 @@
 <colUsage columnID="A461CD40-F5F0-606D-B4D0-3FC640C357A5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FK_ESTADIA_FATURAS">
+<ind_PK_UK id="6C57D0C9-DF4E-EC71-B311-9C9678823239" name="FK_EST_TAB_FAT">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:39:04 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -148,7 +148,7 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="FATURAS_STATUS_CK" directorySegmentName="seg_0" id="CAA85175-0DE7-4A33-7CF1-7E3D49F46930">
+<tableCheckConstraint name="CK_STS_TAB_FAT" directorySegmentName="seg_0" id="CAA85175-0DE7-4A33-7CF1-7E3D49F46930">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:39:57 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

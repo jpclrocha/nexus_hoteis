@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7979EDB3-0067-F5E1-8494-C712E0E768E6" containerWithKeyObject="C0726EA7-FBC1-72D3-29D1-B2688470630D" localFKIndex="5B487469-6B9D-8161-28C7-6C12E904C2D3" name="FK_ESTADIA_TAB_HOSPEDE_ESTADIA">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7979EDB3-0067-F5E1-8494-C712E0E768E6" containerWithKeyObject="C0726EA7-FBC1-72D3-29D1-B2688470630D" localFKIndex="5B487469-6B9D-8161-28C7-6C12E904C2D3" name="FK_ESTADIA_TAB_HSP_EST">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:04:53 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<referredTableLongName>SCH_NEXUS.ESTADIA</referredTableLongName>
+<referredTableLongName>SCH_NEXUS.TAB_ESTADIA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>BF3E6235-3274-B09F-1040-8009AD71D670</referredTableID>
 <keyObject>DFED9A50-58CF-9676-A66A-8375C5C26B1E</keyObject>

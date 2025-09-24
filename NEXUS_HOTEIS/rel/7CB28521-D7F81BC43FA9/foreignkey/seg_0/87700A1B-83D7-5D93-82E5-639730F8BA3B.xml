@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87700A1B-83D7-5D93-82E5-639730F8BA3B" containerWithKeyObject="5E743E27-3D32-6236-780E-8F275C663981" localFKIndex="7F311DA5-4703-D1D7-C47A-0B0D3A1FBF71" name="FK_SERVICO_CONSUMO_SERVICO">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="87700A1B-83D7-5D93-82E5-639730F8BA3B" containerWithKeyObject="5E743E27-3D32-6236-780E-8F275C663981" localFKIndex="7F311DA5-4703-D1D7-C47A-0B0D3A1FBF71" name="FK_SERVICO_TAB_CNS_SRV">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 16:32:34 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

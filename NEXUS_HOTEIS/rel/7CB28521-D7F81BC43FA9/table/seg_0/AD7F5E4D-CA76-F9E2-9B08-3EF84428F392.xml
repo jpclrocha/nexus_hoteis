@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 19:08:24 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_15</ordsAlias>
-<abbreviation>CARG</abbreviation>
+<abbreviation>TAB_CRG</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>CARGOS_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>CARGOS_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>CARGO_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_CRG</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_CRG</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_CRG</notNullConstraintName>
 </Column>
 <Column name="NOM_CARGO" id="630A8B37-23D3-29C8-5D0B-72D71A76AF99">
 <createdBy>JoPe</createdBy>
@@ -34,11 +34,11 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>CARGO_NOME_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NOM_TAB_CRG</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8B63F6EE-F615-97D1-F573-4F3B92537D6B" name="PK_CARGO">
+<ind_PK_UK id="8B63F6EE-F615-97D1-F573-4F3B92537D6B" name="PK_TAB_CRG">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:08:58 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -49,7 +49,7 @@
 <colUsage columnID="D7927598-BBA9-6974-9916-812793695D1B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CE3DABBD-2C83-E0F1-9F8F-513A9A38FE9C" name="AK_NOME_CARGO">
+<ind_PK_UK id="CE3DABBD-2C83-E0F1-9F8F-513A9A38FE9C" name="AK_NOM_TAB_CRG">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:09:21 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

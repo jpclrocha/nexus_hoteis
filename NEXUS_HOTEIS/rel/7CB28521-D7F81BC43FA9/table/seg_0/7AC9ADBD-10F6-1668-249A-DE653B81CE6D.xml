@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 19:04:49 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
-<abbreviation>PERM</abbreviation>
+<abbreviation>TAB_PERM</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>PERMISSOES_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>PERMISSOES_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>PERMISSAO_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_PERM</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_PERM</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_PERM</notNullConstraintName>
 </Column>
 <Column name="NOM_PERMISSAO" id="D0B56A87-B87C-3689-13BE-7BC4101F7DCC">
 <createdBy>JoPe</createdBy>
@@ -34,11 +34,11 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>PERMISSAO_NOME_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NOM_TAB_PERM</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7682306C-7436-D54E-5D90-F9A299C3ADF7" name="PK_PERMISSAO">
+<ind_PK_UK id="7682306C-7436-D54E-5D90-F9A299C3ADF7" name="PK_TAB_PERM">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 19:05:27 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -49,7 +49,7 @@
 <colUsage columnID="B61F03C9-30C0-0F5A-90B0-9CDB5BF78479"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D6D5C846-E90F-35D4-7CC9-0833EC3BA399" name="AK_NOME_PERMISSAO">
+<ind_PK_UK id="D6D5C846-E90F-35D4-7CC9-0833EC3BA399" name="AK_NOM_TAB_PERM">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-31 14:39:02 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

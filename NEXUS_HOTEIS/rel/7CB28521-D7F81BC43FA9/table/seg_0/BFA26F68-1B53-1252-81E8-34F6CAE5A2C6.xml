@@ -4,6 +4,7 @@
 <createdTime>2025-08-30 22:32:46 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_20</ordsAlias>
+<abbreviation>TAB_QRT_CMD</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -18,6 +19,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ID_QUARTO_TAB_QRT_CMD</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="B880F127-FDA6-7175-AB91-3C0CEFD0BE26" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
 </associations>
@@ -32,13 +34,14 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_ID_COMODIDADE_TAB_QRT_CMD</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="47D88B4E-4D80-ABE6-FB49-5006EF16F4EA" referredColumn="C7726404-01B8-C845-A7C5-8BA0AE4025E0"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="20E89F1F-0041-7D49-E12A-4A609A14F6DC" name="PK_QUARTO_COMODIDADE">
+<ind_PK_UK id="20E89F1F-0041-7D49-E12A-4A609A14F6DC" name="PK_TAB_QRT_CMD">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-31 14:17:19 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

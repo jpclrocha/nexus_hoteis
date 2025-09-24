@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 15:12:13 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_10</ordsAlias>
-<abbreviation>EST</abbreviation>
+<abbreviation>TAB_EST</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>ESTADIA_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>ESTADIA_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>ESTADIA_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_EST</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_EST</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_EST</notNullConstraintName>
 </Column>
 <Column name="ID_RESERVA" id="0B579450-338A-1D1D-2698-DC40D7BF5BDA">
 <createdBy>JoPe</createdBy>
@@ -35,7 +35,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>ESTADIA_ID_RESERVA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_RES_TAB_EST</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="6549CF36-3E74-2073-4B08-F0E03F05F702" referredColumn="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8"/>
 </associations>
@@ -49,7 +49,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>ESTADIA_DATA_CHECKIN_REAL_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_CHECKIN_REAL_TAB_EST</notNullConstraintName>
 </Column>
 <Column name="DAT_CHECKOUT_REAL" id="D7B549C6-3C4C-CB94-3AE1-90EE5C8560E3">
 <createdBy>JoPe</createdBy>
@@ -60,7 +60,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>ESTADIA_DATA_CHECKOUT_REAL_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_CHECKOUT_REAL_TAB_EST</notNullConstraintName>
 </Column>
 <Column name="STS_ESTADIA" id="0D8B1A96-B026-A298-7A3E-74F9C965EA71">
 <createdBy>JoPe</createdBy>
@@ -72,11 +72,11 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>ESTADIA_STATUS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_STS_TAB_EST</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DFED9A50-58CF-9676-A66A-8375C5C26B1E" name="PK_ESTADIA">
+<ind_PK_UK id="DFED9A50-58CF-9676-A66A-8375C5C26B1E" name="PK_TAB_EST">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:12:35 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -87,7 +87,7 @@
 <colUsage columnID="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="031704F6-C723-C746-D2E8-B54499E1BE09" name="IDX_ID_RESERVA_ESTADIA">
+<ind_PK_UK id="031704F6-C723-C746-D2E8-B54499E1BE09" name="IX_ID_RES_TAB_EST">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:00:12 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -96,7 +96,7 @@
 <colUsage columnID="0B579450-338A-1D1D-2698-DC40D7BF5BDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="16157A58-AEB8-2964-B0A4-BC2C255CF3BD" name="IDX_STATUS_ESTADIA">
+<ind_PK_UK id="16157A58-AEB8-2964-B0A4-BC2C255CF3BD" name="IX_STS_TAB_EST">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:15:46 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -105,7 +105,7 @@
 <colUsage columnID="0D8B1A96-B026-A298-7A3E-74F9C965EA71"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2539D0CA-0D42-E7AA-70F0-929ACB5A34E9" name="FK_RESERVA_ESTADIA">
+<ind_PK_UK id="2539D0CA-0D42-E7AA-70F0-929ACB5A34E9" name="FK_RES_TAB_EST">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:13:38 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -117,7 +117,7 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="CK_STATUS_ESTADIA" directorySegmentName="seg_0" id="8A4F894A-EFA6-B3A0-C303-6537D8C9932C">
+<tableCheckConstraint name="CK_STS_TAB_EST" directorySegmentName="seg_0" id="8A4F894A-EFA6-B3A0-C303-6537D8C9932C">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:16:16 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

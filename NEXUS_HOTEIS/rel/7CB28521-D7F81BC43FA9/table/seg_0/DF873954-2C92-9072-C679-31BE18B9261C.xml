@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 14:52:17 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_6</ordsAlias>
-<abbreviation>RES</abbreviation>
+<abbreviation>TAB_RES</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<autoIncrementSequenceName>RESERVAS_ID_SEQUENCE</autoIncrementSequenceName>
-<autoIncrementTriggerName>RESERVAS_ID_TRIGGER</autoIncrementTriggerName>
-<notNullConstraintName>RESERVA_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_RES</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_RES</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="ID_HOSPEDE_PRINCIPAL" id="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72">
 <createdBy>JoPe</createdBy>
@@ -34,7 +34,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_ID_HOSPEDE_PRINCIPAL_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_HOS_TAB_RES</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="F5BF6A3B-C12F-D8BA-330A-4C535E1DB013" referredColumn="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
 </associations>
@@ -48,7 +48,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_DATA_RESERVA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_DAT_RES_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="DAT_CHECKIN_PREVISTA" id="7A204FE7-48C1-562C-BB00-45BC99E17037">
 <createdBy>JoPe</createdBy>
@@ -59,7 +59,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_DATA_CHECKIN_PREVISTA</notNullConstraintName>
+<notNullConstraintName>NN_DAT_CKIN_PREV_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="DAT_CHECKOUT_PREVISTA" id="738BDC83-44ED-CFA5-FAAF-DDFD694D7642">
 <createdBy>JoPe</createdBy>
@@ -70,7 +70,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_DATA_CHECKOUT_PREVISTA</notNullConstraintName>
+<notNullConstraintName>NN_DAT_CKOUT_PREV_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="NUM_ADULTOS" id="1024F70B-70D1-1D57-EBEB-8F6FCA5156F6">
 <createdBy>JoPe</createdBy>
@@ -82,7 +82,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_NUMERO_ADULTOS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_NUM_ADULT_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="NUM_CRIANCAS" id="E6B37051-B36F-A5F0-BE81-375ED2381996">
 <createdBy>JoPe</createdBy>
@@ -95,6 +95,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_NUM_CRIA_TAB_RES</notNullConstraintName>
 </Column>
 <Column name="STS_RESERVA" id="51A46288-D16B-7565-6782-AB7E8AEB527A">
 <createdBy>JoPe</createdBy>
@@ -106,11 +107,11 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_STATUS_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_STS_TAB_RES</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="70909D0F-7AA6-3D42-13B0-B4B0597E1E7E" name="PK_RESERVA">
+<ind_PK_UK id="70909D0F-7AA6-3D42-13B0-B4B0597E1E7E" name="PK_TAB_RES">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:53:42 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -121,7 +122,7 @@
 <colUsage columnID="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DBB51B93-7EA4-3F5F-01AA-A891F38684BD" name="IDX_ID_HOSPEDE_RESERVA">
+<ind_PK_UK id="DBB51B93-7EA4-3F5F-01AA-A891F38684BD" name="IX_ID_HOSPEDE_TAB_RES">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-21 23:59:48 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -130,7 +131,7 @@
 <colUsage columnID="0B376B6F-AFBD-AACE-B4EB-F88877FAEF72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="12A94FC9-F35C-20AF-364D-499FFD26391F" name="IDX_DT_CHECKIN_RESERVA">
+<ind_PK_UK id="12A94FC9-F35C-20AF-364D-499FFD26391F" name="IX_DAT_CKIN_TAB_RES">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:14:25 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -139,7 +140,7 @@
 <colUsage columnID="7A204FE7-48C1-562C-BB00-45BC99E17037"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2FAF1054-6306-B0D5-222C-44FFB27FDC32" name="IDX_DT_CHECKOUT_RESERVA">
+<ind_PK_UK id="2FAF1054-6306-B0D5-222C-44FFB27FDC32" name="IX_DAT_CKOUT_TAB_RES">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:14:43 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -148,7 +149,7 @@
 <colUsage columnID="738BDC83-44ED-CFA5-FAAF-DDFD694D7642"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="73E95389-DCC0-E908-A37F-3255BD34F4D8" name="IDX_STATUS_RESERVA">
+<ind_PK_UK id="73E95389-DCC0-E908-A37F-3255BD34F4D8" name="IX_STS_TAB_RES">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:15:24 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -157,7 +158,7 @@
 <colUsage columnID="51A46288-D16B-7565-6782-AB7E8AEB527A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2F01980A-121D-142D-4384-E52D08056C2B" name="FK_HOSPEDE_RESERVA">
+<ind_PK_UK id="2F01980A-121D-142D-4384-E52D08056C2B" name="FK_HOSPEDE_TAB_RES">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:58:26 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -169,7 +170,7 @@
 </ind_PK_UK>
 </indexes>
 <tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
-<tableCheckConstraint name="CK_STATUS_RESERVA" directorySegmentName="seg_0" id="314BAE4E-FC23-0C21-B821-40E806A84A92">
+<tableCheckConstraint name="CK_STS_TAB_RES" directorySegmentName="seg_0" id="314BAE4E-FC23-0C21-B821-40E806A84A92">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:05:15 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

@@ -4,7 +4,7 @@
 <createdTime>2025-08-19 15:06:32 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
 <ordsAlias>table_8</ordsAlias>
-<abbreviation>QRT_RES</abbreviation>
+<abbreviation>TAB_QRT_RES</abbreviation>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -19,7 +19,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_QUARTO_ID_RESERVA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_RES_TAB_QRT_RES</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="8C5D139C-C1D1-030D-7259-65FBB5649685" referredColumn="37F5E90C-15D0-73D1-6262-58A1CE3BD6A8"/>
 </associations>
@@ -34,14 +34,14 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>RESERVA_QUARTO_ID_QUARTO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_QRT_TAB_QRT_RES</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="1CE38943-B6E2-2689-2EFC-DD689F620F35" referredColumn="43B158DD-C81D-A9BA-B24D-DA419CC77D1D"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="72C69A6C-81C7-DFBD-0986-6659CC414443" name="PK_QUARTO_RESERVADO">
+<ind_PK_UK id="72C69A6C-81C7-DFBD-0986-6659CC414443" name="PK_TAB_QRT_RES">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:08:21 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -53,7 +53,7 @@
 <colUsage columnID="548F7869-37B8-3EC0-4EC2-9578AA35F35C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9758EF72-54AD-3435-92EC-01A73AFC76D9" name="FK_RESERVA_TAB_QUARTO_RESERVADO">
+<ind_PK_UK id="9758EF72-54AD-3435-92EC-01A73AFC76D9" name="FK_RESERVA_TAB_QRT_RES">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:08:46 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -63,7 +63,7 @@
 <colUsage columnID="BCD80CAE-2F97-F79E-A6D6-B89DB0F98D5A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="899957B3-12F1-9C72-60A2-96B1D0747FB9" name="FK_QUARTO_TAB_QUARTO_RESERVADO">
+<ind_PK_UK id="899957B3-12F1-9C72-60A2-96B1D0747FB9" name="FK_QUARTO_TAB_QRT_RES">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 15:09:06 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

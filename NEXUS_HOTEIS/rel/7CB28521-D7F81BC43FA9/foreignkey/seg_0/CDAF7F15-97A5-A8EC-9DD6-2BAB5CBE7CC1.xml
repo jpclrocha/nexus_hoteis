@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDAF7F15-97A5-A8EC-9DD6-2BAB5CBE7CC1" containerWithKeyObject="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A" localFKIndex="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="FK_PERIODO_TARIFA">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDAF7F15-97A5-A8EC-9DD6-2BAB5CBE7CC1" containerWithKeyObject="1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A" localFKIndex="A5DAF535-9BAA-9066-67BD-E217AB4EBF49" name="FK_PER_TAR_TAB_TAR">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-19 14:28:30 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>

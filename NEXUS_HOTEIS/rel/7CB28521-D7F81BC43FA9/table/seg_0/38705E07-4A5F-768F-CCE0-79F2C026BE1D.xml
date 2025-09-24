@@ -18,8 +18,11 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_ID_NOT_NULL</notNullConstraintName>
+<autoIncrementSequenceName>SEQ_ID_TAB_AVL</autoIncrementSequenceName>
+<autoIncrementTriggerName>TRG_ID_TAB_AVL</autoIncrementTriggerName>
+<notNullConstraintName>NN_ID_TAB_AVL</notNullConstraintName>
 </Column>
 <Column name="ID_ESTADIA" id="E8CA8C8D-5224-1214-5454-09EDA4C4F311">
 <createdBy>JoPe</createdBy>
@@ -31,7 +34,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_ID_ESTADIA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_EST_TAB_AVL</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="650D256D-1217-C7D2-7747-A3EB1FB8C1EF" referredColumn="11784E54-6D77-A7A9-1B3C-4A8D63BB1A78"/>
 </associations>
@@ -46,7 +49,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_ID_HOSPEDE_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_ID_HSP_TAB_AVL</notNullConstraintName>
 <associations>
 <colAssociation fkAssociation="BFA0EEF7-69DB-B9C0-2ABF-23997FF1EF6C" referredColumn="5C011238-38CC-9D75-70E8-38AF29FB078A"/>
 </associations>
@@ -61,7 +64,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_PONT_LIMPEZA_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_PONT_LIMP_TAB_AVL</notNullConstraintName>
 </Column>
 <Column name="PONT_ATENDIMENTO" id="479774EE-3F90-2721-5E39-C0B8B370DABD">
 <createdBy>JoPe</createdBy>
@@ -73,7 +76,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_PONT_ATENDIMENTO_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_PONT_ATEN_TAB_AVL</notNullConstraintName>
 </Column>
 <Column name="PONT_COMODIDADES" id="AB744533-1159-73E1-38F4-3A9C3AF2A574">
 <createdBy>JoPe</createdBy>
@@ -85,7 +88,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-<notNullConstraintName>TAB_AVALIACOES_PONT_COMODIDADES_NOT_NULL</notNullConstraintName>
+<notNullConstraintName>NN_PONT_CMD_TAB_AVL</notNullConstraintName>
 </Column>
 <Column name="PONT_GERAL" id="7D865A3D-B962-3AAE-04ED-8E27E83369D7">
 <createdBy>JoPe</createdBy>
@@ -99,10 +102,11 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NN_PONT_GER_TAB_AVL</notNullConstraintName>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AB482906-66E6-2952-AF4C-FE94354CEEDA" name="PK_AVALIACAO">
+<ind_PK_UK id="AB482906-66E6-2952-AF4C-FE94354CEEDA" name="PK_TAB_AVL">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-22 00:21:31 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -113,7 +117,7 @@
 <colUsage columnID="9A99BBE0-C0C9-2987-75C8-77AB9C54B00B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="866B4D52-51BF-127C-5BF6-402E4C927112" name="IDX_ID_ESTADIA_AVALIACAO">
+<ind_PK_UK id="866B4D52-51BF-127C-5BF6-402E4C927112" name="IX_ID_ESTADIA_TAB_AVL">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:03:09 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -122,7 +126,7 @@
 <colUsage columnID="E8CA8C8D-5224-1214-5454-09EDA4C4F311"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C1F2770-298E-D74C-00A5-32E282EE1CD2" name="IDX_ID_HOSPEDE_AVALIACAO">
+<ind_PK_UK id="0C1F2770-298E-D74C-00A5-32E282EE1CD2" name="IX_ID_HOSPEDE_TAB_AVL">
 <createdBy>jope</createdBy>
 <createdTime>2025-09-22 00:03:09 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -131,7 +135,7 @@
 <colUsage columnID="2D4FF3B7-008C-050B-A25C-D990EF7FD5B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CC0ACA42-D012-C909-E888-8C92A835FDCA" name="FK_ESTADIA_AVALIACAO">
+<ind_PK_UK id="CC0ACA42-D012-C909-E888-8C92A835FDCA" name="FK_ESTADIA_TAB_AVL">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-22 00:25:40 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
@@ -141,7 +145,7 @@
 <colUsage columnID="E8CA8C8D-5224-1214-5454-09EDA4C4F311"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1A78F1E1-718E-A8A7-67FB-F6EE9A543D07" name="FK_HOSPEDE_AVALIACAO">
+<ind_PK_UK id="1A78F1E1-718E-A8A7-67FB-F6EE9A543D07" name="FK_HOSPEDE_TAB_AVL">
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-22 00:25:40 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
