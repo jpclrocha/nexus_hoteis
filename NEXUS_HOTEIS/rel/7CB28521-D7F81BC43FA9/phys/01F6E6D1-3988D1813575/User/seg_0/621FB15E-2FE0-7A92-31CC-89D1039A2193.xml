@@ -3,8 +3,9 @@
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:37 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<identifier>15FCB6D6210034091E57B98F0A28A39613CA2ED25C9BD2C5DC1557FA54E4247C63708802D8EBB6012B7C10BC5DC429903A</identifier>
-<privileges>DBA</privileges>
+<defTableSpace>1B4B719D-5109-3E28-5A6F-6AC2CE906C6A</defTableSpace>
+<identifier>155F5C26832839523CA89BF1035AD49193AB081B89B507AC1D6221A75EB60FC94D7E595B4DD80699D40407C9A69214E373</identifier>
+<privileges>CONNECT, CREATE VIEW, RESOURCE</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions27" id="80517C36-41AD-38D9-F571-200BBD2575F9">
 <createdBy>JoPe</createdBy>
@@ -35,4 +36,18 @@
 <table>7AC9ADBD-10F6-1668-249A-DE653B81CE6D</table>
 </Permission>
 </permissions>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem_1" id="BB92DF67-6294-A0DB-DB50-7E3AB7FA8C4E">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 22:45:29 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<tableSpace>1B4B719D-5109-3E28-5A6F-6AC2CE906C6A</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem_3" id="8050C467-AC66-8B4D-CF1E-7B384679E994">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 22:45:39 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<tableSpace>1AE860FC-FC21-2BF2-1800-CB6ABB8C9DA1</tableSpace>
+</QuotaItem>
+</quotaItems>
 </UserOraclev10g>
