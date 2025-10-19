@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RL_SCH_NEXUS_IDENTITY_ID_FUNC_RW" directorySegmentName="seg_0" id="10BC71F9-706F-B453-6EE9-E250158F178F">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:41:14 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>15196B36385E3990E0EFF3F26CD695608ABA2127C9BAD1C64DE9DF66984C90FAC6</password>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions75" id="15EDBF57-A190-043F-049B-417FF9E6E55A">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:41:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>INSERT, SELECT, UPDATE</privileges>
+<table>AD7F5E4D-CA76-F9E2-9B08-3EF84428F392</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions76" id="32B1466E-56DA-42A3-58A6-757273973BE0">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:41:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>INSERT, SELECT, UPDATE</privileges>
+<table>DE4532C1-6933-4638-FF14-410CB6458AC3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions77" id="8ADCB475-1029-8B3C-8FF0-458450BC9E44">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:41:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>INSERT, SELECT, UPDATE</privileges>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions78" id="63CEA5E2-2A29-6E30-91F0-595F26D15541">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:41:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>INSERT, SELECT, UPDATE</privileges>
+<table>7AC9ADBD-10F6-1668-249A-DE653B81CE6D</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

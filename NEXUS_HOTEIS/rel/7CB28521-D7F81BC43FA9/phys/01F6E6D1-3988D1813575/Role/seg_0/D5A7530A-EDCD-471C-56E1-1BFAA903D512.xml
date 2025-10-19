@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="GP_RECEPCIONISTA" directorySegmentName="seg_0" id="D5A7530A-EDCD-471C-56E1-1BFAA903D512">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:59 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>15AF50581594AF0B31D48003688D74DCBCB8F225EF930E6D63C634BF804B1C51B8</password>
+<roles>7BB04EFB-B890-521B-D7AD-9F89C157B7E2, 53C4F657-6861-1D1B-5A0D-893F76498FFE, 7194432E-E372-16C9-E381-30BA6C87C090, 06790A6C-808C-C041-D42C-559275E44A8F</roles>
+</RoleOraclev10g>

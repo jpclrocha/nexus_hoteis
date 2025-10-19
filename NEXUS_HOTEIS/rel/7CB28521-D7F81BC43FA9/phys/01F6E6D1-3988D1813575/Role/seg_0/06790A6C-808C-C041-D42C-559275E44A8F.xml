@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RL_SCH_NEXUS_IDENTITY_ID_READ" directorySegmentName="seg_0" id="06790A6C-808C-C041-D42C-559275E44A8F">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:04 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>1568FF73E59DF5E1F7EFA9AA295A2342E60BAD314BDEE480ADBBE98FE61A3247B3</password>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions79" id="BB900A73-AB58-6B27-C400-94CD54EAA2B7">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>AD7F5E4D-CA76-F9E2-9B08-3EF84428F392</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions80" id="8E0D5E6F-83DA-58C1-3DC6-290546DCB974">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DE4532C1-6933-4638-FF14-410CB6458AC3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions81" id="502E0D12-1A0B-4F14-A2E2-8F2BE0611DC1">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>642BA3C7-453B-FFEA-5737-2EB34BBA5FD4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions82" id="F9FB36DE-4056-E3D8-D1EE-6A9706255F79">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:42:34 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>7AC9ADBD-10F6-1668-249A-DE653B81CE6D</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

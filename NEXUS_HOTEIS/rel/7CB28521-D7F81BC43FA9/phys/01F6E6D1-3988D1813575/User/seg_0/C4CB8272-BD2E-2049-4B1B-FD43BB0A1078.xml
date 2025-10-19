@@ -3,7 +3,9 @@
 <createdBy>JoPe</createdBy>
 <createdTime>2025-08-20 03:06:13 UTC</createdTime>
 <ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
-<identifier>155A5D74B9260E2BA1E4FB8D4D705998BF1CBADCE3DD265A8EC110E9D8929F48C5</identifier>
+<accountLock>YES</accountLock>
+<identifier>1589E98CA69339225301C5A18AAF3556B2937E66C4D78D74241ED9C4BB0DEAE85B</identifier>
+<passwordExpire>YES</passwordExpire>
 <privileges>DBA</privileges>
 <permissions>
 <Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions13" id="ECA5185C-A656-1C27-F98C-3D72CB9B8FB1">

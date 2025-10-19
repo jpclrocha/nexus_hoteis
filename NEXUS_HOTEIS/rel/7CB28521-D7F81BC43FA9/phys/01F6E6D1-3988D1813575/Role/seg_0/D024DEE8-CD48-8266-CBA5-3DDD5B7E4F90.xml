@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="GP_LIMPEZA" directorySegmentName="seg_0" id="D024DEE8-CD48-8266-CBA5-3DDD5B7E4F90">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:43:37 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>158B1776948926F6DE879939116D684BA010189B9E4B0420C3203EC858A756A574</password>
+<roles>53C4F657-6861-1D1B-5A0D-893F76498FFE, F733A2E0-A240-C82F-5E87-7CE05D427015</roles>
+</RoleOraclev10g>

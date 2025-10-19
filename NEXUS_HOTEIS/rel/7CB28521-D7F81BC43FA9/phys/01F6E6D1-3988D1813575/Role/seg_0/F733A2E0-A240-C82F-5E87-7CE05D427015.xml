@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RL_SCH_NEXUS_LIMPEZA_RW" directorySegmentName="seg_0" id="F733A2E0-A240-C82F-5E87-7CE05D427015">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:25:35 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>1556923E41E2B4D7411B200B92802A7522653E9F75D3729770D9D78F4E45C14788</password>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions55" id="2C5690C4-1433-B08F-E5B8-45A8DA5BD79F">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:25:47 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<columnList>STS_QUARTO, UPDATE</columnList>
+<columnsTable>3E8586D7-79CA-36A5-446A-2C9224459ECF</columnsTable>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions56" id="01D8EC43-3155-B25D-5FAC-148968F0A28E">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:26:07 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

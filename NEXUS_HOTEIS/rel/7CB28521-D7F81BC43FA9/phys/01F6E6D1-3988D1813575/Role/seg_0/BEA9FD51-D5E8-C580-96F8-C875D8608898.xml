@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RL_SCH_NEXUS_ADM_DADOS_RW" directorySegmentName="seg_0" id="BEA9FD51-D5E8-C580-96F8-C875D8608898">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:26:28 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>1572DA27E0EF715023552CAB7105C262FEE6F639540F7707099F23072FCD8550D1</password>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions57" id="19154AA4-805E-2DDB-CDE9-0DECBC3F94F6">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>38705E07-4A5F-768F-CCE0-79F2C026BE1D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions58" id="DAACEC3B-F7B5-A08E-CC0D-3F30652958C5">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>4ACA0EBF-450E-CC00-4067-DFDF1883FC75</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions59" id="859CA137-876D-FAB2-30A1-BBF0AC3218DA">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>5E743E27-3D32-6236-780E-8F275C663981</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions60" id="E34F2D0F-AA81-E60C-F358-9F095583F1AE">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>BF3E6235-3274-B09F-1040-8009AD71D670</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions61" id="AE8FAE18-086F-9811-5004-C6325E6B6ACF">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>F05181E4-B408-1F94-F46E-789B091D0E26</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions62" id="6B0C87F3-13EB-C0E3-902B-4D3666909E9E">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>2F2BB608-6524-9229-BCD9-261C8A99EF34</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions63" id="045512F6-9AB0-3BDA-B505-5A02448D8123">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>C0726EA7-FBC1-72D3-29D1-B2688470630D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions64" id="74B8406B-1BAC-1815-2EDC-D5ABF0B7CAF4">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>C51E565E-BC30-E190-9CEC-0EF618B4ABB9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions65" id="BCE33EF6-1A13-C37E-24E2-7A682CFE51ED">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>A0DD6074-4E78-E31A-9E12-677CD6F9DEBC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions66" id="6749D9D2-8F2D-CC66-6BC6-DBD59CBAAB3C">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions67" id="5E52D277-3C77-6D97-DFAB-99B1A4369467">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>BFA26F68-1B53-1252-81E8-34F6CAE5A2C6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions68" id="065FB931-3AAF-C446-A140-FAE451379810">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>FBE08728-0CD0-5354-2051-5CAECE21D2CA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions69" id="A8F48237-F05C-4BA5-C05C-672E2EC9C611">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>DF873954-2C92-9072-C679-31BE18B9261C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions70" id="DAB1494E-7788-61A1-4EC5-2872EED5F4A5">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>C1592449-9E4E-F195-CFD0-836A1F492788</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions71" id="9FCC79CC-44FC-70CB-2911-6D9C0B805BAD">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions72" id="948A5AC8-A43F-C424-7654-2F6E2EC75595">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:32:57 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE</privileges>
+<table>1E4E9BFA-09D8-1086-6526-B0FA74C22A2B</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>

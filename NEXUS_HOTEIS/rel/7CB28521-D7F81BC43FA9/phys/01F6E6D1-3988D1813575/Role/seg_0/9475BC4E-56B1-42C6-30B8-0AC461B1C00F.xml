@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="GP_GERENTE" directorySegmentName="seg_0" id="9475BC4E-56B1-42C6-30B8-0AC461B1C00F">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:44:14 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>15234DC564BFED96C14131A801C6887B8447087284BC6FA6E4E0E5F193DB768B51</password>
+<roles>53C4F657-6861-1D1B-5A0D-893F76498FFE, 10BC71F9-706F-B453-6EE9-E250158F178F, BEA9FD51-D5E8-C580-96F8-C875D8608898</roles>
+</RoleOraclev10g>

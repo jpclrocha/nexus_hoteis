@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="RL_SCH_NEXUS_NEXUS_READ" directorySegmentName="seg_0" id="7194432E-E372-16C9-E381-30BA6C87C090">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:06:44 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<password>15B83B4A84BF7F7CB3F569D28789DDB5F610325D9CBA88118BADD6639F5C1A40D1</password>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions24" id="B97A38C1-3A36-4AAE-78A8-57DBC45444AB">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>38705E07-4A5F-768F-CCE0-79F2C026BE1D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions26" id="0C5B2B65-B57C-FE36-F0F2-0B2216F01F6C">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>4ACA0EBF-450E-CC00-4067-DFDF1883FC75</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions31" id="5B88B53C-FB1E-F9E9-4D13-A5DAD68C91B0">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>5E743E27-3D32-6236-780E-8F275C663981</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions32" id="F68B9984-C123-F7A2-E2C2-B9523DD9FD79">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>BF3E6235-3274-B09F-1040-8009AD71D670</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions33" id="79428D51-FD4A-E695-62F0-94F746EC958D">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>F05181E4-B408-1F94-F46E-789B091D0E26</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions34" id="2A86DF9F-934D-5329-5673-21B6430C66BE">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>2F2BB608-6524-9229-BCD9-261C8A99EF34</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions35" id="6C8103EC-E328-6097-3284-C519AFC745EC">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C0726EA7-FBC1-72D3-29D1-B2688470630D</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions36" id="0B0938FA-D441-6493-7C5B-1C1A71581FC5">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C51E565E-BC30-E190-9CEC-0EF618B4ABB9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions37" id="C0F87608-2A36-F1E4-4EB4-6A5707B42938">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>A0DD6074-4E78-E31A-9E12-677CD6F9DEBC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions38" id="2E8AEFD9-F9CA-87E5-17AA-214530D3D06C">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>3E8586D7-79CA-36A5-446A-2C9224459ECF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions39" id="B6F114EC-460C-700A-2F89-775C825CB41C">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>BFA26F68-1B53-1252-81E8-34F6CAE5A2C6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions40" id="1D064167-05A9-B408-38E4-21B7DA93FA37">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>FBE08728-0CD0-5354-2051-5CAECE21D2CA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions41" id="6DDE38C3-54EB-0F71-02D4-F67513489A4E">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>DF873954-2C92-9072-C679-31BE18B9261C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions42" id="7221C5BE-DC4F-099B-2458-28AE7A3BDE07">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>C1592449-9E4E-F195-CFD0-836A1F492788</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions43" id="5229A2E8-D592-E545-B8DA-26CF251270E9">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>1CA0A5C8-A9E8-5E7B-0051-9948D0CC5F9A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions44" id="160ACCDC-7B47-0A2C-6986-559627BD3702">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:11:05 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>1E4E9BFA-09D8-1086-6526-B0FA74C22A2B</table>
+</Permission>
+</permissions>
+</RoleOraclev10g>
