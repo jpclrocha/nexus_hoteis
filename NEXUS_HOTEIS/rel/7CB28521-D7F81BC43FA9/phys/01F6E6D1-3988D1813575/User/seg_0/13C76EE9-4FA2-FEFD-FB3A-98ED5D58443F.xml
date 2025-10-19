@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="JOAO_SERV_GERAIS" directorySegmentName="seg_0" id="13C76EE9-4FA2-FEFD-FB3A-98ED5D58443F">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:54:26 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<identifier>15EFBD691765F4D8C61AC87707094D4C637D65B033B0D68259621281804B25643C</identifier>
+<roles>D024DEE8-CD48-8266-CBA5-3DDD5B7E4F90</roles>
+</UserOraclev10g>

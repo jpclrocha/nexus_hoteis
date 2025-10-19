@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="DAVI_CLIENTE" directorySegmentName="seg_0" id="36D9F98D-2CCD-B240-7971-80439E68D9C7">
+<createdBy>jope</createdBy>
+<createdTime>2025-10-19 15:53:12 UTC</createdTime>
+<ownerDesignName>NEXUS_HOTEIS</ownerDesignName>
+<identifier>15D42B762F09DEF29866543E2BB64CFE7E39358512DFA89D9F0EE1FC4B9725BFED</identifier>
+<roles>43D7F259-6F32-E3B1-A116-5FD459FFFA25</roles>
+</UserOraclev10g>
